@@ -1,0 +1,3 @@
+audit_id,model,label,confidence,issue_categories,notes,definition_applied,parsed_ok,finish_reason,latency_sec,error
+AUDIT-001,deepseek-v4-pro,unfaithful,0.95,entity_ambiguity|over_specific_answer,问题中的“人民大学”指代不明，证据中提及多个不同实体（如阿姆斯特丹人民大学、孟加拉国人民大学等），答案仅给出1913年，忽略了实体歧义，且未说明具体指哪所大学。,若答案给出明确结论而未处理证据中的实体歧义，通常标记为unfaithful。,True,stop,4.837,
+AUDIT-002,deepseek-v4-pro,unfaithful,0.95,entity_ambiguity|evidence_conflict|over_specific_answer,证据中同时出现Fontbonne Academy（高中）、Fontbonne University（大学）和Fontbonne College（高中），存在实体歧义与冲突，答案仅给出“学院”过于确定且未处理歧义。,答案给出确定结论但未处理证据中的实体歧义与冲突，应标记为unfaithful。,True,stop,4.486,

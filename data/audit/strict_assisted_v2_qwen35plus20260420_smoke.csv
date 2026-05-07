@@ -1,0 +1,3 @@
+audit_id,model,label,confidence,issue_categories,notes,definition_applied,parsed_ok,finish_reason,latency_sec,error
+AUDIT-001,qwen3.5-plus-2026-04-20,unfaithful,1.0,entity_ambiguity|over_specific_answer,问题中的“人民大学”存在明显的实体歧义，证据中包含了阿姆斯特丹（1913年）、孟加拉国（1996年）和墨西哥（1940年）等多所同名机构。答案直接给出确定年份而未处理歧义或指明具体对象，属于在冲突/歧义证据中无依据地选择一边且过度具体。,应用关键边界规则：当证据显示明显实体歧义或多个候选答案时，若答案直接给确定结论而没有处理这种歧义，通常偏向 unfaithful。,True,stop,3.182,
+AUDIT-002,qwen3.5-plus-2026-04-20,unfaithful,1.0,entity_ambiguity|over_specific_answer,证据中同时存在 Fontbonne Academy（高中）、Fontbonne University（大学）和 Fontbonne College（指高中）等多个实体，存在明显的实体歧义。答案仅断言为“学院”且未处理此歧义，属于在冲突/歧义证据中无依据地选择一边并给出确定结论。,应用关键边界规则：当证据显示明显实体歧义或多个候选答案时，若答案直接给确定结论而没有处理这种歧义或冲突，通常偏向 unfaithful。,True,stop,3.053,

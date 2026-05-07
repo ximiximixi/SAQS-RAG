@@ -1,0 +1,3 @@
+audit_id,model,label,confidence,issue_categories,notes,definition_applied,parsed_ok,finish_reason,latency_sec,error
+AUDIT-001,qwen3.6-plus-2026-04-02,unfaithful,0.95,entity_ambiguity|unsupported_claim,问题中的“人民大学”存在实体歧义，证据中提到了阿姆斯特丹人民大学（1913年）、孟加拉国人民大学（1996年）和科利马人民大学（1940年）。答案在未消除歧义的情况下直接断定是1913年，属于对歧义证据处理不当且缺乏支持。,如果答案给出确定性结论而未处理实体歧义或冲突，通常标记为不忠实。,True,stop,3.962,
+AUDIT-002,qwen3.6-plus-2026-04-02,unfaithful,0.9,entity_ambiguity|contradiction,证据中存在多个名为“Fontbonne”的实体（Academy为高中，University/College为高等教育机构），答案未区分具体指代且与证据3中“Fontbonne College仅指高中”的描述存在潜在冲突或歧义。,如果答案给出确定性结论而未处理证据中的实体歧义或冲突，通常标记为不忠实。,True,stop,3.541,

@@ -1,0 +1,3 @@
+audit_id,model,label,confidence,issue_categories,notes,definition_applied,parsed_ok,finish_reason,latency_sec,error
+AUDIT-001,qwen3.6-max-preview,unfaithful,1.0,entity_ambiguity|unsupported_claim,问题中的“人民大学”通常指中国人民大学，但证据中仅包含阿姆斯特丹、孟加拉国等地的“人民大学”，未提及中国人民大学。答案将阿姆斯特丹人民大学的成立时间（1913年）错误地归因于问题所指的实体，属于实体混淆且缺乏证据支持。,若证据存在明显的实体歧义或多个可能答案，而回答给出确定结论且未处理该歧义，应标记为不忠实。,True,stop,4.296,
+AUDIT-002,qwen3.6-max-preview,unfaithful,0.9,entity_ambiguity|over_specific_answer,证据中同时出现了Fontbonne Academy（学院/高中）、Fontbonne University（大学）和Fontbonne College，存在实体歧义。答案仅断言为“学院”，忽略了其他可能的机构类型且未处理歧义。,若证据存在实体歧义或多个合理答案，而答案给出确定性结论未处理歧义，通常标记为不忠实。,True,stop,4.244,

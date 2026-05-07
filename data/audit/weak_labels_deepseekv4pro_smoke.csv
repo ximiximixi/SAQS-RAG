@@ -1,0 +1,3 @@
+audit_id,model,label,confidence,issue_categories,reason,parsed_ok,finish_reason,latency_sec,error
+AUDIT-001,deepseek-v4-pro,insufficient,0.9,insufficient_evidence|entity_ambiguity,"The question asks about 'People's University' but evidence describes multiple institutions with similar names, making it unclear which one is meant.",True,stop,1.084,
+AUDIT-002,deepseek-v4-pro,faithful,0.95,,"Evidence [1] states 'Fontbonne Academy' and 'the academy', directly supporting the answer that Fontbonne is an academy.",True,stop,1.454,

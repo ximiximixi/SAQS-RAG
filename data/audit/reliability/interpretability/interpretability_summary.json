@@ -1,0 +1,36 @@
+{
+  "selected_targets": [
+    [
+      "item",
+      "target_benchmark_mismatch"
+    ],
+    [
+      "item",
+      "target_any_main_llm_wrong"
+    ],
+    [
+      "item",
+      "target_human_unfaithful"
+    ],
+    [
+      "item",
+      "target_old_or_strict_wrong"
+    ],
+    [
+      "verdict",
+      "target_verdict_unreliable_strict"
+    ],
+    [
+      "verdict",
+      "target_verdict_unreliable_covered"
+    ],
+    [
+      "verdict",
+      "target_verdict_high_confidence_wrong"
+    ]
+  ],
+  "n_logistic_expanded_rows": 3040,
+  "n_forest_expanded_rows": 1520,
+  "n_ablation_rows": 56,
+  "note": "Interpretability models are fitted on the full canonical feature tables for explanation only; predictive performance comes from grouped/LOO CV in prediction_results.csv."
+}

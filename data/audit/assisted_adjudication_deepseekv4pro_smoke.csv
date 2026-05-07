@@ -1,0 +1,3 @@
+audit_id,model,label,confidence,issue_categories,notes,definition_applied,parsed_ok,finish_reason,latency_sec,error
+AUDIT-001,deepseek-v4-pro,unfaithful,0.95,entity_ambiguity,问题中的“人民大学”存在明显实体歧义，证据中出现了阿姆斯特丹人民大学（1913年）、孟加拉国人民大学（1996年）和科利马人民大学（1940年）等多个同名或近似实体。答案直接给出1913年，未澄清具体指代，在存在多个候选答案的情况下无依据地选择了其中一个。,证据显示明显实体歧义和多个候选答案，答案直接给出确定结论而未处理歧义，按冻结标准偏向 unfaithful。,True,stop,7.493,
+AUDIT-002,deepseek-v4-pro,unfaithful,0.9,evidence_conflict|unsupported_claim,证据[1]称Fontbonne为学院，证据[2]称其为大学，证据[3]提到Fontbonne College仅指高中，存在明显机构类型冲突。答案仅给出“学院”，忽略了证据中的冲突和歧义，未处理多个可能类型。,证据内部存在冲突且答案未处理歧义，直接给出确定结论，按冻结标准应标为unfaithful。,True,stop,6.463,

@@ -1,0 +1,6 @@
+﻿all_models_correct_n,avg_correct_vote_count,avg_vote_margin,group,majority_accuracy,n_items,n_models,no_model_correct_n,unanimous_accuracy,unanimous_n,unanimous_rate,unanimous_wrong_n
+58,4.28,3.78,old_weak_5models,0.92,100,5,1,1.0,58,0.58,0
+74,4.41,4.26,strict_independent_5models,0.9,100,5,2,0.9736842105263158,76,0.76,2
+84,4.66,4.56,strict_independent_en_5models,0.96,100,5,2,0.9767441860465116,86,0.86,2
+95,2.89,2.96,assisted_v1_3models,0.97,100,3,3,0.9693877551020408,98,0.98,3
+89,2.76,2.9,assisted_v2_3models,0.93,100,3,6,0.9368421052631579,95,0.95,6

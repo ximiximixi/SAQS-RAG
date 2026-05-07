@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>RAG 人工审计标注</title>
+    <link rel="stylesheet" href="/style.css" />
+  </head>
+  <body>
+    <header class="topbar">
+      <div>
+        <h1>RAG 人工审计标注</h1>
+        <p id="progressText">加载中...</p>
+      </div>
+      <div class="topActions">
+        <button id="prevBtn" type="button">上一条</button>
+        <button id="nextBtn" type="button">下一条</button>
+      </div>
+    </header>
+
+    <main class="layout">
+      <aside class="sidebar">
+        <div class="filters">
+          <input id="jumpInput" type="number" min="1" placeholder="跳到编号" />
+          <button id="jumpBtn" type="button">跳转</button>
+        </div>
+        <div class="legend">
+          <span><i class="dot done"></i>已标注</span>
+          <span><i class="dot current"></i>当前</span>
+        </div>
+        <div id="itemList" class="itemList"></div>
+      </aside>
+
+      <section class="content">
+        <div class="itemHeader">
+          <div>
+            <div id="auditId" class="auditId"></div>
+            <div id="saveStatus" class="saveStatus">未保存</div>
+          </div>
+          <div class="keyboardHint">Ctrl+S 保存</div>
+        </div>
+
+        <section class="panel">
+          <h2>问题</h2>
+          <div id="question" class="textBlock"></div>
+        </section>
+
+        <section class="panel">
+          <h2>答案</h2>
+          <div id="answer" class="textBlock answer"></div>
+        </section>
+
+        <section class="panel evidencePanel">
+          <h2>证据</h2>
+          <div id="evidence" class="evidenceList"></div>
+        </section>
+
+        <section class="panel aiPanel">
+          <h2>AI 参考意见</h2>
+          <div id="aiReviews" class="aiReviews"></div>
+        </section>
+
+        <section class="annotation panel">
+          <h2>标注</h2>
+          <div class="labelRow">
+            <label><input type="radio" name="label" value="faithful" /> Faithful / 忠实</label>
+            <label><input type="radio" name="label" value="unfaithful" /> Unfaithful / 不忠实</label>
+            <label><input type="radio" name="label" value="insufficient" /> Insufficient / 证据不足</label>
+            <label><input type="radio" name="label" value="" /> 清空选择</label>
+          </div>
+
+          <label class="fieldLabel" for="confidence">置信度 Confidence</label>
+          <input id="confidence" type="number" min="0" max="1" step="0.05" placeholder="0.0 - 1.0" />
+
+          <label class="fieldLabel">问题类别 Issue Categories</label>
+          <div id="categories" class="categoryGrid"></div>
+
+          <label class="fieldLabel" for="notes">备注 Notes</label>
+          <textarea id="notes" rows="4" placeholder="简短写明判断理由或歧义点"></textarea>
+
+          <div class="formActions">
+            <button id="saveBtn" class="primary" type="button">保存</button>
+            <button id="saveNextBtn" type="button">保存并下一条</button>
+          </div>
+        </section>
+      </section>
+    </main>
+
+    <script src="/app.js"></script>
+  </body>
+</html>

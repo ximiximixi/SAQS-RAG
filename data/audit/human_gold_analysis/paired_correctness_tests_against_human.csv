@@ -1,0 +1,10 @@
+﻿a_only_correct,b_only_correct,both_correct,both_wrong_or_abstain,condition_a,condition_b,exact_mcnemar_p_two_sided
+1,33,59,7,benchmark_original_gold,old_weak_5model_majority,4.0745362639427185e-09
+7,10,82,1,pilot_qwen_majority,old_weak_5model_majority,0.629058837890625
+5,11,81,3,pilot_glm_majority,old_weak_5model_majority,0.210113525390625
+9,7,83,1,old_weak_5model_majority,strict_independent_5model_majority,0.803619384765625
+3,7,89,1,old_weak_5model_majority,strict_independent_en_5model_majority,0.34375
+1,7,89,3,strict_independent_5model_majority,strict_independent_en_5model_majority,0.0703125
+1,8,89,2,strict_independent_5model_majority,assisted_v1_3model_majority,0.0390625
+3,6,87,4,strict_independent_5model_majority,assisted_v2_3model_majority,0.5078125
+4,0,93,3,assisted_v1_3model_majority,assisted_v2_3model_majority,0.125

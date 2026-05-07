@@ -1,0 +1,3 @@
+audit_id,model,label,confidence,issue_categories,reason,parsed_ok,finish_reason,latency_sec,error
+AUDIT-001,qwen3.6-max-preview,insufficient,0.9,entity_ambiguity,"The question is ambiguous as multiple 'People's Universities' exist (e.g., Amsterdam in 1913, Bangladesh in 1996). The answer provides only one date without specifying which institution.",True,stop,3.093,
+AUDIT-002,qwen3.6-max-preview,unfaithful,0.9,unsupported_claim|evidence_conflict,Evidence identifies Fontbonne as both an academy and a university. The answer 'academy' is incomplete and ignores the conflicting evidence labeling it a university.,True,stop,2.593,

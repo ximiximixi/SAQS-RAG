@@ -1,0 +1,114 @@
+{
+  "n_items": 100,
+  "condition_label_counts": {
+    "old_five_majority": {
+      "unfaithful": 72,
+      "faithful": 23,
+      "tie": 3,
+      "insufficient": 2
+    },
+    "strict_five_majority": {
+      "unfaithful": 80,
+      "faithful": 20
+    },
+    "assisted_v1_majority": {
+      "unfaithful": 81,
+      "faithful": 19
+    },
+    "assisted_v2_majority": {
+      "unfaithful": 85,
+      "faithful": 15
+    }
+  },
+  "pairwise": {
+    "old_five_majority__vs__strict_five_majority": {
+      "n": 100,
+      "different": 16,
+      "different_rate": 0.16,
+      "left_counts": {
+        "unfaithful": 72,
+        "faithful": 23,
+        "tie": 3,
+        "insufficient": 2
+      },
+      "right_counts": {
+        "unfaithful": 80,
+        "faithful": 20
+      }
+    },
+    "old_five_majority__vs__assisted_v1_majority": {
+      "n": 100,
+      "different": 9,
+      "different_rate": 0.09,
+      "left_counts": {
+        "unfaithful": 72,
+        "faithful": 23,
+        "tie": 3,
+        "insufficient": 2
+      },
+      "right_counts": {
+        "unfaithful": 81,
+        "faithful": 19
+      }
+    },
+    "old_five_majority__vs__assisted_v2_majority": {
+      "n": 100,
+      "different": 13,
+      "different_rate": 0.13,
+      "left_counts": {
+        "unfaithful": 72,
+        "faithful": 23,
+        "tie": 3,
+        "insufficient": 2
+      },
+      "right_counts": {
+        "unfaithful": 85,
+        "faithful": 15
+      }
+    },
+    "strict_five_majority__vs__assisted_v1_majority": {
+      "n": 100,
+      "different": 9,
+      "different_rate": 0.09,
+      "left_counts": {
+        "unfaithful": 80,
+        "faithful": 20
+      },
+      "right_counts": {
+        "unfaithful": 81,
+        "faithful": 19
+      }
+    },
+    "strict_five_majority__vs__assisted_v2_majority": {
+      "n": 100,
+      "different": 9,
+      "different_rate": 0.09,
+      "left_counts": {
+        "unfaithful": 80,
+        "faithful": 20
+      },
+      "right_counts": {
+        "unfaithful": 85,
+        "faithful": 15
+      }
+    },
+    "assisted_v1_majority__vs__assisted_v2_majority": {
+      "n": 100,
+      "different": 4,
+      "different_rate": 0.04,
+      "left_counts": {
+        "unfaithful": 81,
+        "faithful": 19
+      },
+      "right_counts": {
+        "unfaithful": 85,
+        "faithful": 15
+      }
+    }
+  },
+  "changed_counts": {
+    "old_to_strict": 16,
+    "strict_to_v2": 9,
+    "v1_to_v2": 4
+  }
+}

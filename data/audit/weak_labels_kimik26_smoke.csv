@@ -1,0 +1,3 @@
+audit_id,model,label,confidence,issue_categories,reason,parsed_ok,finish_reason,latency_sec,error
+AUDIT-001,kimi-k2.6,unfaithful,0.9,entity_ambiguity,"Answer says 1913 but question asks about 'People's University' generally. Evidence shows multiple entities: People's University of Amsterdam (1913), People's University of Bangladesh (1996), Popular University of Colima (1940). Answer ignores ambiguity.",True,stop,3.443,
+AUDIT-002,kimi-k2.6,unfaithful,0.85,unsupported_claim|evidence_conflict,Evidence [1] calls it 'academy' but [2] calls it 'university' and [3] mentions 'Fontbonne College'. Multiple conflicting institution types exist in evidence.,True,stop,2.707,

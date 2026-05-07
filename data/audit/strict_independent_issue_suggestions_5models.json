@@ -1,0 +1,4033 @@
+{
+  "source": "strict_independent_five_model_rerun",
+  "models": [
+    "qwen3.6-max-preview",
+    "deepseek-v4-pro",
+    "kimi-k2.6",
+    "qwen3-max-2026-01-23",
+    "qwen3.6-plus-2026-04-02"
+  ],
+  "n_items": 100,
+  "items": {
+    "AUDIT-001": {
+      "audit_id": "AUDIT-001",
+      "suggested_issue_categories": [
+        "entity_ambiguity",
+        "over_specific_answer",
+        "unsupported_claim"
+      ],
+      "all_ai_issue_categories": [
+        "entity_ambiguity",
+        "over_specific_answer",
+        "unsupported_claim"
+      ],
+      "issue_category_counts": {
+        "entity_ambiguity": 5,
+        "unsupported_claim": 2,
+        "over_specific_answer": 3
+      },
+      "model_issue_categories": {
+        "qwen3_6_max_preview": [
+          "entity_ambiguity",
+          "unsupported_claim"
+        ],
+        "deepseek_v4_pro": [
+          "entity_ambiguity",
+          "over_specific_answer"
+        ],
+        "kimi_k2_6": [
+          "entity_ambiguity",
+          "over_specific_answer"
+        ],
+        "qwen3_max_2026_01_23": [
+          "entity_ambiguity",
+          "over_specific_answer"
+        ],
+        "qwen3_6_plus_2026_04_02": [
+          "entity_ambiguity",
+          "unsupported_claim"
+        ]
+      },
+      "ai_majority_label": "unfaithful",
+      "label_vote_counts": {
+        "unfaithful": 5
+      },
+      "ai_top_label_vote_fraction": "1.0"
+    },
+    "AUDIT-002": {
+      "audit_id": "AUDIT-002",
+      "suggested_issue_categories": [
+        "entity_ambiguity",
+        "over_specific_answer",
+        "unsupported_claim",
+        "contradiction",
+        "evidence_conflict"
+      ],
+      "all_ai_issue_categories": [
+        "entity_ambiguity",
+        "over_specific_answer",
+        "unsupported_claim",
+        "contradiction",
+        "evidence_conflict"
+      ],
+      "issue_category_counts": {
+        "entity_ambiguity": 5,
+        "over_specific_answer": 3,
+        "evidence_conflict": 1,
+        "unsupported_claim": 1,
+        "contradiction": 1
+      },
+      "model_issue_categories": {
+        "qwen3_6_max_preview": [
+          "entity_ambiguity",
+          "over_specific_answer"
+        ],
+        "deepseek_v4_pro": [
+          "entity_ambiguity",
+          "evidence_conflict",
+          "over_specific_answer"
+        ],
+        "kimi_k2_6": [
+          "entity_ambiguity",
+          "unsupported_claim"
+        ],
+        "qwen3_max_2026_01_23": [
+          "entity_ambiguity",
+          "over_specific_answer"
+        ],
+        "qwen3_6_plus_2026_04_02": [
+          "entity_ambiguity",
+          "contradiction"
+        ]
+      },
+      "ai_majority_label": "unfaithful",
+      "label_vote_counts": {
+        "unfaithful": 5
+      },
+      "ai_top_label_vote_fraction": "1.0"
+    },
+    "AUDIT-003": {
+      "audit_id": "AUDIT-003",
+      "suggested_issue_categories": [
+        "entity_ambiguity",
+        "over_specific_answer",
+        "unsupported_claim"
+      ],
+      "all_ai_issue_categories": [
+        "entity_ambiguity",
+        "over_specific_answer",
+        "unsupported_claim"
+      ],
+      "issue_category_counts": {
+        "entity_ambiguity": 5,
+        "over_specific_answer": 4,
+        "unsupported_claim": 1
+      },
+      "model_issue_categories": {
+        "qwen3_6_max_preview": [
+          "entity_ambiguity",
+          "over_specific_answer"
+        ],
+        "deepseek_v4_pro": [
+          "entity_ambiguity",
+          "over_specific_answer"
+        ],
+        "kimi_k2_6": [
+          "entity_ambiguity",
+          "over_specific_answer"
+        ],
+        "qwen3_max_2026_01_23": [
+          "entity_ambiguity",
+          "over_specific_answer"
+        ],
+        "qwen3_6_plus_2026_04_02": [
+          "entity_ambiguity",
+          "unsupported_claim"
+        ]
+      },
+      "ai_majority_label": "unfaithful",
+      "label_vote_counts": {
+        "unfaithful": 5
+      },
+      "ai_top_label_vote_fraction": "1.0"
+    },
+    "AUDIT-004": {
+      "audit_id": "AUDIT-004",
+      "suggested_issue_categories": [
+        "unsupported_claim",
+        "evidence_conflict",
+        "entity_ambiguity",
+        "over_specific_answer"
+      ],
+      "all_ai_issue_categories": [
+        "unsupported_claim",
+        "evidence_conflict",
+        "entity_ambiguity",
+        "over_specific_answer"
+      ],
+      "issue_category_counts": {
+        "unsupported_claim": 5,
+        "evidence_conflict": 1,
+        "entity_ambiguity": 1,
+        "over_specific_answer": 1
+      },
+      "model_issue_categories": {
+        "qwen3_6_max_preview": [
+          "unsupported_claim"
+        ],
+        "deepseek_v4_pro": [
+          "unsupported_claim",
+          "evidence_conflict"
+        ],
+        "kimi_k2_6": [
+          "unsupported_claim",
+          "entity_ambiguity"
+        ],
+        "qwen3_max_2026_01_23": [
+          "unsupported_claim",
+          "over_specific_answer"
+        ],
+        "qwen3_6_plus_2026_04_02": [
+          "unsupported_claim"
+        ]
+      },
+      "ai_majority_label": "unfaithful",
+      "label_vote_counts": {
+        "unfaithful": 5
+      },
+      "ai_top_label_vote_fraction": "1.0"
+    },
+    "AUDIT-005": {
+      "audit_id": "AUDIT-005",
+      "suggested_issue_categories": [
+        "entity_ambiguity",
+        "evidence_conflict",
+        "unsupported_claim",
+        "over_specific_answer"
+      ],
+      "all_ai_issue_categories": [
+        "entity_ambiguity",
+        "evidence_conflict",
+        "unsupported_claim",
+        "over_specific_answer"
+      ],
+      "issue_category_counts": {
+        "entity_ambiguity": 4,
+        "unsupported_claim": 2,
+        "evidence_conflict": 3,
+        "over_specific_answer": 2
+      },
+      "model_issue_categories": {
+        "qwen3_6_max_preview": [
+          "entity_ambiguity",
+          "unsupported_claim"
+        ],
+        "deepseek_v4_pro": [
+          "evidence_conflict",
+          "entity_ambiguity",
+          "over_specific_answer"
+        ],
+        "kimi_k2_6": [
+          "evidence_conflict",
+          "entity_ambiguity"
+        ],
+        "qwen3_max_2026_01_23": [
+          "evidence_conflict",
+          "over_specific_answer"
+        ],
+        "qwen3_6_plus_2026_04_02": [
+          "entity_ambiguity",
+          "unsupported_claim"
+        ]
+      },
+      "ai_majority_label": "unfaithful",
+      "label_vote_counts": {
+        "unfaithful": 5
+      },
+      "ai_top_label_vote_fraction": "1.0"
+    },
+    "AUDIT-006": {
+      "audit_id": "AUDIT-006",
+      "suggested_issue_categories": [
+        "unsupported_claim",
+        "contradiction",
+        "numeric_error",
+        "over_specific_answer"
+      ],
+      "all_ai_issue_categories": [
+        "unsupported_claim",
+        "contradiction",
+        "numeric_error",
+        "over_specific_answer"
+      ],
+      "issue_category_counts": {
+        "contradiction": 2,
+        "unsupported_claim": 3,
+        "numeric_error": 2,
+        "over_specific_answer": 2
+      },
+      "model_issue_categories": {
+        "qwen3_6_max_preview": [
+          "contradiction"
+        ],
+        "deepseek_v4_pro": [
+          "unsupported_claim",
+          "numeric_error"
+        ],
+        "kimi_k2_6": [
+          "unsupported_claim",
+          "over_specific_answer"
+        ],
+        "qwen3_max_2026_01_23": [
+          "over_specific_answer",
+          "unsupported_claim"
+        ],
+        "qwen3_6_plus_2026_04_02": [
+          "contradiction",
+          "numeric_error"
+        ]
+      },
+      "ai_majority_label": "unfaithful",
+      "label_vote_counts": {
+        "unfaithful": 5
+      },
+      "ai_top_label_vote_fraction": "1.0"
+    },
+    "AUDIT-007": {
+      "audit_id": "AUDIT-007",
+      "suggested_issue_categories": [
+        "entity_ambiguity",
+        "over_specific_answer"
+      ],
+      "all_ai_issue_categories": [
+        "entity_ambiguity",
+        "over_specific_answer"
+      ],
+      "issue_category_counts": {
+        "entity_ambiguity": 4,
+        "over_specific_answer": 2
+      },
+      "model_issue_categories": {
+        "qwen3_6_max_preview": [
+          "entity_ambiguity"
+        ],
+        "deepseek_v4_pro": [
+          "entity_ambiguity",
+          "over_specific_answer"
+        ],
+        "kimi_k2_6": [
+          "entity_ambiguity"
+        ],
+        "qwen3_max_2026_01_23": [
+          "over_specific_answer",
+          "entity_ambiguity"
+        ],
+        "qwen3_6_plus_2026_04_02": []
+      },
+      "ai_majority_label": "unfaithful",
+      "label_vote_counts": {
+        "unfaithful": 4,
+        "faithful": 1
+      },
+      "ai_top_label_vote_fraction": "0.8"
+    },
+    "AUDIT-008": {
+      "audit_id": "AUDIT-008",
+      "suggested_issue_categories": [
+        "numeric_error"
+      ],
+      "all_ai_issue_categories": [
+        "numeric_error"
+      ],
+      "issue_category_counts": {
+        "numeric_error": 3
+      },
+      "model_issue_categories": {
+        "qwen3_6_max_preview": [],
+        "deepseek_v4_pro": [
+          "numeric_error"
+        ],
+        "kimi_k2_6": [
+          "numeric_error"
+        ],
+        "qwen3_max_2026_01_23": [],
+        "qwen3_6_plus_2026_04_02": [
+          "numeric_error"
+        ]
+      },
+      "ai_majority_label": "unfaithful",
+      "label_vote_counts": {
+        "faithful": 2,
+        "unfaithful": 3
+      },
+      "ai_top_label_vote_fraction": "0.6"
+    },
+    "AUDIT-009": {
+      "audit_id": "AUDIT-009",
+      "suggested_issue_categories": [
+        "unsupported_claim",
+        "numeric_error",
+        "over_specific_answer"
+      ],
+      "all_ai_issue_categories": [
+        "unsupported_claim",
+        "numeric_error",
+        "over_specific_answer"
+      ],
+      "issue_category_counts": {
+        "numeric_error": 2,
+        "unsupported_claim": 2,
+        "over_specific_answer": 1
+      },
+      "model_issue_categories": {
+        "qwen3_6_max_preview": [
+          "numeric_error"
+        ],
+        "deepseek_v4_pro": [
+          "unsupported_claim",
+          "over_specific_answer"
+        ],
+        "kimi_k2_6": [
+          "unsupported_claim",
+          "numeric_error"
+        ],
+        "qwen3_max_2026_01_23": [],
+        "qwen3_6_plus_2026_04_02": []
+      },
+      "ai_majority_label": "unfaithful",
+      "label_vote_counts": {
+        "unfaithful": 3,
+        "faithful": 2
+      },
+      "ai_top_label_vote_fraction": "0.6"
+    },
+    "AUDIT-010": {
+      "audit_id": "AUDIT-010",
+      "suggested_issue_categories": [
+        "unsupported_claim",
+        "over_specific_answer"
+      ],
+      "all_ai_issue_categories": [
+        "unsupported_claim",
+        "over_specific_answer"
+      ],
+      "issue_category_counts": {
+        "unsupported_claim": 5,
+        "over_specific_answer": 1
+      },
+      "model_issue_categories": {
+        "qwen3_6_max_preview": [
+          "unsupported_claim"
+        ],
+        "deepseek_v4_pro": [
+          "unsupported_claim"
+        ],
+        "kimi_k2_6": [
+          "unsupported_claim"
+        ],
+        "qwen3_max_2026_01_23": [
+          "unsupported_claim",
+          "over_specific_answer"
+        ],
+        "qwen3_6_plus_2026_04_02": [
+          "unsupported_claim"
+        ]
+      },
+      "ai_majority_label": "unfaithful",
+      "label_vote_counts": {
+        "unfaithful": 5
+      },
+      "ai_top_label_vote_fraction": "1.0"
+    },
+    "AUDIT-011": {
+      "audit_id": "AUDIT-011",
+      "suggested_issue_categories": [
+        "unsupported_claim",
+        "entity_ambiguity",
+        "over_specific_answer",
+        "evidence_conflict"
+      ],
+      "all_ai_issue_categories": [
+        "unsupported_claim",
+        "entity_ambiguity",
+        "over_specific_answer",
+        "evidence_conflict"
+      ],
+      "issue_category_counts": {
+        "unsupported_claim": 5,
+        "entity_ambiguity": 4,
+        "evidence_conflict": 1,
+        "over_specific_answer": 2
+      },
+      "model_issue_categories": {
+        "qwen3_6_max_preview": [
+          "unsupported_claim",
+          "entity_ambiguity"
+        ],
+        "deepseek_v4_pro": [
+          "unsupported_claim",
+          "evidence_conflict"
+        ],
+        "kimi_k2_6": [
+          "unsupported_claim",
+          "entity_ambiguity",
+          "over_specific_answer"
+        ],
+        "qwen3_max_2026_01_23": [
+          "unsupported_claim",
+          "over_specific_answer",
+          "entity_ambiguity"
+        ],
+        "qwen3_6_plus_2026_04_02": [
+          "unsupported_claim",
+          "entity_ambiguity"
+        ]
+      },
+      "ai_majority_label": "unfaithful",
+      "label_vote_counts": {
+        "unfaithful": 5
+      },
+      "ai_top_label_vote_fraction": "1.0"
+    },
+    "AUDIT-012": {
+      "audit_id": "AUDIT-012",
+      "suggested_issue_categories": [
+        "unsupported_claim",
+        "over_specific_answer",
+        "evidence_conflict"
+      ],
+      "all_ai_issue_categories": [
+        "unsupported_claim",
+        "over_specific_answer",
+        "evidence_conflict"
+      ],
+      "issue_category_counts": {
+        "unsupported_claim": 3,
+        "evidence_conflict": 1,
+        "over_specific_answer": 2
+      },
+      "model_issue_categories": {
+        "qwen3_6_max_preview": [
+          "unsupported_claim"
+        ],
+        "deepseek_v4_pro": [
+          "evidence_conflict",
+          "over_specific_answer"
+        ],
+        "kimi_k2_6": [
+          "unsupported_claim",
+          "over_specific_answer"
+        ],
+        "qwen3_max_2026_01_23": [],
+        "qwen3_6_plus_2026_04_02": [
+          "unsupported_claim"
+        ]
+      },
+      "ai_majority_label": "unfaithful",
+      "label_vote_counts": {
+        "unfaithful": 4,
+        "faithful": 1
+      },
+      "ai_top_label_vote_fraction": "0.8"
+    },
+    "AUDIT-013": {
+      "audit_id": "AUDIT-013",
+      "suggested_issue_categories": [
+        "unsupported_claim",
+        "entity_ambiguity",
+        "over_specific_answer"
+      ],
+      "all_ai_issue_categories": [
+        "unsupported_claim",
+        "entity_ambiguity",
+        "over_specific_answer"
+      ],
+      "issue_category_counts": {
+        "unsupported_claim": 4,
+        "entity_ambiguity": 3,
+        "over_specific_answer": 1
+      },
+      "model_issue_categories": {
+        "qwen3_6_max_preview": [
+          "unsupported_claim",
+          "entity_ambiguity"
+        ],
+        "deepseek_v4_pro": [],
+        "kimi_k2_6": [
+          "unsupported_claim",
+          "entity_ambiguity"
+        ],
+        "qwen3_max_2026_01_23": [
+          "unsupported_claim",
+          "over_specific_answer"
+        ],
+        "qwen3_6_plus_2026_04_02": [
+          "unsupported_claim",
+          "entity_ambiguity"
+        ]
+      },
+      "ai_majority_label": "unfaithful",
+      "label_vote_counts": {
+        "unfaithful": 4,
+        "faithful": 1
+      },
+      "ai_top_label_vote_fraction": "0.8"
+    },
+    "AUDIT-014": {
+      "audit_id": "AUDIT-014",
+      "suggested_issue_categories": [
+        "unsupported_claim",
+        "over_specific_answer",
+        "evidence_conflict"
+      ],
+      "all_ai_issue_categories": [
+        "unsupported_claim",
+        "over_specific_answer",
+        "evidence_conflict"
+      ],
+      "issue_category_counts": {
+        "unsupported_claim": 4,
+        "over_specific_answer": 3,
+        "evidence_conflict": 1
+      },
+      "model_issue_categories": {
+        "qwen3_6_max_preview": [
+          "unsupported_claim"
+        ],
+        "deepseek_v4_pro": [
+          "unsupported_claim",
+          "over_specific_answer"
+        ],
+        "kimi_k2_6": [
+          "unsupported_claim",
+          "over_specific_answer"
+        ],
+        "qwen3_max_2026_01_23": [
+          "over_specific_answer",
+          "evidence_conflict"
+        ],
+        "qwen3_6_plus_2026_04_02": [
+          "unsupported_claim"
+        ]
+      },
+      "ai_majority_label": "unfaithful",
+      "label_vote_counts": {
+        "unfaithful": 5
+      },
+      "ai_top_label_vote_fraction": "1.0"
+    },
+    "AUDIT-015": {
+      "audit_id": "AUDIT-015",
+      "suggested_issue_categories": [
+        "unsupported_claim",
+        "over_specific_answer"
+      ],
+      "all_ai_issue_categories": [
+        "unsupported_claim",
+        "over_specific_answer"
+      ],
+      "issue_category_counts": {
+        "unsupported_claim": 2,
+        "over_specific_answer": 1
+      },
+      "model_issue_categories": {
+        "qwen3_6_max_preview": [
+          "unsupported_claim"
+        ],
+        "deepseek_v4_pro": [],
+        "kimi_k2_6": [
+          "unsupported_claim",
+          "over_specific_answer"
+        ],
+        "qwen3_max_2026_01_23": [],
+        "qwen3_6_plus_2026_04_02": []
+      },
+      "ai_majority_label": "faithful",
+      "label_vote_counts": {
+        "unfaithful": 2,
+        "faithful": 3
+      },
+      "ai_top_label_vote_fraction": "0.6"
+    },
+    "AUDIT-016": {
+      "audit_id": "AUDIT-016",
+      "suggested_issue_categories": [
+        "evidence_conflict",
+        "numeric_error",
+        "over_specific_answer",
+        "unsupported_claim",
+        "entity_ambiguity"
+      ],
+      "all_ai_issue_categories": [
+        "evidence_conflict",
+        "numeric_error",
+        "over_specific_answer",
+        "unsupported_claim",
+        "entity_ambiguity"
+      ],
+      "issue_category_counts": {
+        "evidence_conflict": 5,
+        "over_specific_answer": 2,
+        "entity_ambiguity": 1,
+        "numeric_error": 2,
+        "unsupported_claim": 1
+      },
+      "model_issue_categories": {
+        "qwen3_6_max_preview": [
+          "evidence_conflict",
+          "over_specific_answer"
+        ],
+        "deepseek_v4_pro": [
+          "evidence_conflict",
+          "entity_ambiguity",
+          "numeric_error"
+        ],
+        "kimi_k2_6": [
+          "evidence_conflict",
+          "unsupported_claim"
+        ],
+        "qwen3_max_2026_01_23": [
+          "evidence_conflict",
+          "numeric_error"
+        ],
+        "qwen3_6_plus_2026_04_02": [
+          "evidence_conflict",
+          "over_specific_answer"
+        ]
+      },
+      "ai_majority_label": "unfaithful",
+      "label_vote_counts": {
+        "unfaithful": 5
+      },
+      "ai_top_label_vote_fraction": "1.0"
+    },
+    "AUDIT-017": {
+      "audit_id": "AUDIT-017",
+      "suggested_issue_categories": [
+        "entity_ambiguity",
+        "evidence_conflict",
+        "unsupported_claim",
+        "over_specific_answer"
+      ],
+      "all_ai_issue_categories": [
+        "entity_ambiguity",
+        "evidence_conflict",
+        "unsupported_claim",
+        "over_specific_answer"
+      ],
+      "issue_category_counts": {
+        "entity_ambiguity": 5,
+        "evidence_conflict": 3,
+        "over_specific_answer": 1,
+        "unsupported_claim": 2
+      },
+      "model_issue_categories": {
+        "qwen3_6_max_preview": [
+          "entity_ambiguity",
+          "evidence_conflict"
+        ],
+        "deepseek_v4_pro": [
+          "entity_ambiguity",
+          "evidence_conflict",
+          "over_specific_answer"
+        ],
+        "kimi_k2_6": [
+          "entity_ambiguity",
+          "unsupported_claim"
+        ],
+        "qwen3_max_2026_01_23": [
+          "entity_ambiguity",
+          "evidence_conflict"
+        ],
+        "qwen3_6_plus_2026_04_02": [
+          "entity_ambiguity",
+          "unsupported_claim"
+        ]
+      },
+      "ai_majority_label": "unfaithful",
+      "label_vote_counts": {
+        "unfaithful": 5
+      },
+      "ai_top_label_vote_fraction": "1.0"
+    },
+    "AUDIT-018": {
+      "audit_id": "AUDIT-018",
+      "suggested_issue_categories": [
+        "entity_ambiguity",
+        "over_specific_answer",
+        "evidence_conflict"
+      ],
+      "all_ai_issue_categories": [
+        "entity_ambiguity",
+        "over_specific_answer",
+        "evidence_conflict"
+      ],
+      "issue_category_counts": {
+        "entity_ambiguity": 5,
+        "evidence_conflict": 1,
+        "over_specific_answer": 2
+      },
+      "model_issue_categories": {
+        "qwen3_6_max_preview": [
+          "entity_ambiguity"
+        ],
+        "deepseek_v4_pro": [
+          "entity_ambiguity",
+          "evidence_conflict",
+          "over_specific_answer"
+        ],
+        "kimi_k2_6": [
+          "entity_ambiguity"
+        ],
+        "qwen3_max_2026_01_23": [
+          "entity_ambiguity",
+          "over_specific_answer"
+        ],
+        "qwen3_6_plus_2026_04_02": [
+          "entity_ambiguity"
+        ]
+      },
+      "ai_majority_label": "unfaithful",
+      "label_vote_counts": {
+        "unfaithful": 5
+      },
+      "ai_top_label_vote_fraction": "1.0"
+    },
+    "AUDIT-019": {
+      "audit_id": "AUDIT-019",
+      "suggested_issue_categories": [
+        "entity_ambiguity",
+        "evidence_conflict",
+        "over_specific_answer"
+      ],
+      "all_ai_issue_categories": [
+        "entity_ambiguity",
+        "evidence_conflict",
+        "over_specific_answer"
+      ],
+      "issue_category_counts": {
+        "entity_ambiguity": 5,
+        "evidence_conflict": 1,
+        "over_specific_answer": 1
+      },
+      "model_issue_categories": {
+        "qwen3_6_max_preview": [
+          "entity_ambiguity"
+        ],
+        "deepseek_v4_pro": [
+          "entity_ambiguity",
+          "evidence_conflict",
+          "over_specific_answer"
+        ],
+        "kimi_k2_6": [
+          "entity_ambiguity"
+        ],
+        "qwen3_max_2026_01_23": [
+          "entity_ambiguity"
+        ],
+        "qwen3_6_plus_2026_04_02": [
+          "entity_ambiguity"
+        ]
+      },
+      "ai_majority_label": "unfaithful",
+      "label_vote_counts": {
+        "unfaithful": 5
+      },
+      "ai_top_label_vote_fraction": "1.0"
+    },
+    "AUDIT-020": {
+      "audit_id": "AUDIT-020",
+      "suggested_issue_categories": [
+        "evidence_conflict",
+        "entity_ambiguity",
+        "numeric_error",
+        "over_specific_answer"
+      ],
+      "all_ai_issue_categories": [
+        "evidence_conflict",
+        "entity_ambiguity",
+        "numeric_error",
+        "over_specific_answer"
+      ],
+      "issue_category_counts": {
+        "evidence_conflict": 5,
+        "over_specific_answer": 1,
+        "entity_ambiguity": 3,
+        "numeric_error": 1
+      },
+      "model_issue_categories": {
+        "qwen3_6_max_preview": [
+          "evidence_conflict",
+          "over_specific_answer"
+        ],
+        "deepseek_v4_pro": [
+          "evidence_conflict",
+          "entity_ambiguity"
+        ],
+        "kimi_k2_6": [
+          "entity_ambiguity",
+          "evidence_conflict"
+        ],
+        "qwen3_max_2026_01_23": [
+          "evidence_conflict",
+          "numeric_error"
+        ],
+        "qwen3_6_plus_2026_04_02": [
+          "entity_ambiguity",
+          "evidence_conflict"
+        ]
+      },
+      "ai_majority_label": "unfaithful",
+      "label_vote_counts": {
+        "unfaithful": 5
+      },
+      "ai_top_label_vote_fraction": "1.0"
+    },
+    "AUDIT-021": {
+      "audit_id": "AUDIT-021",
+      "suggested_issue_categories": [
+        "entity_ambiguity",
+        "over_specific_answer",
+        "evidence_conflict"
+      ],
+      "all_ai_issue_categories": [
+        "entity_ambiguity",
+        "over_specific_answer",
+        "evidence_conflict"
+      ],
+      "issue_category_counts": {
+        "entity_ambiguity": 5,
+        "evidence_conflict": 1,
+        "over_specific_answer": 2
+      },
+      "model_issue_categories": {
+        "qwen3_6_max_preview": [
+          "entity_ambiguity"
+        ],
+        "deepseek_v4_pro": [
+          "entity_ambiguity",
+          "evidence_conflict",
+          "over_specific_answer"
+        ],
+        "kimi_k2_6": [
+          "entity_ambiguity",
+          "over_specific_answer"
+        ],
+        "qwen3_max_2026_01_23": [
+          "entity_ambiguity"
+        ],
+        "qwen3_6_plus_2026_04_02": [
+          "entity_ambiguity"
+        ]
+      },
+      "ai_majority_label": "unfaithful",
+      "label_vote_counts": {
+        "unfaithful": 5
+      },
+      "ai_top_label_vote_fraction": "1.0"
+    },
+    "AUDIT-022": {
+      "audit_id": "AUDIT-022",
+      "suggested_issue_categories": [
+        "entity_ambiguity",
+        "evidence_conflict",
+        "contradiction",
+        "over_specific_answer"
+      ],
+      "all_ai_issue_categories": [
+        "entity_ambiguity",
+        "evidence_conflict",
+        "contradiction",
+        "over_specific_answer"
+      ],
+      "issue_category_counts": {
+        "evidence_conflict": 4,
+        "entity_ambiguity": 5,
+        "over_specific_answer": 1,
+        "contradiction": 1
+      },
+      "model_issue_categories": {
+        "qwen3_6_max_preview": [
+          "evidence_conflict",
+          "entity_ambiguity"
+        ],
+        "deepseek_v4_pro": [
+          "evidence_conflict",
+          "entity_ambiguity",
+          "over_specific_answer"
+        ],
+        "kimi_k2_6": [
+          "evidence_conflict",
+          "entity_ambiguity"
+        ],
+        "qwen3_max_2026_01_23": [
+          "evidence_conflict",
+          "entity_ambiguity"
+        ],
+        "qwen3_6_plus_2026_04_02": [
+          "entity_ambiguity",
+          "contradiction"
+        ]
+      },
+      "ai_majority_label": "unfaithful",
+      "label_vote_counts": {
+        "unfaithful": 5
+      },
+      "ai_top_label_vote_fraction": "1.0"
+    },
+    "AUDIT-023": {
+      "audit_id": "AUDIT-023",
+      "suggested_issue_categories": [
+        "entity_ambiguity",
+        "over_specific_answer",
+        "evidence_conflict",
+        "unsupported_claim"
+      ],
+      "all_ai_issue_categories": [
+        "entity_ambiguity",
+        "over_specific_answer",
+        "evidence_conflict",
+        "unsupported_claim"
+      ],
+      "issue_category_counts": {
+        "entity_ambiguity": 5,
+        "over_specific_answer": 3,
+        "evidence_conflict": 2,
+        "unsupported_claim": 1
+      },
+      "model_issue_categories": {
+        "qwen3_6_max_preview": [
+          "entity_ambiguity",
+          "over_specific_answer"
+        ],
+        "deepseek_v4_pro": [
+          "evidence_conflict",
+          "entity_ambiguity",
+          "over_specific_answer"
+        ],
+        "kimi_k2_6": [
+          "evidence_conflict",
+          "entity_ambiguity"
+        ],
+        "qwen3_max_2026_01_23": [
+          "entity_ambiguity",
+          "over_specific_answer"
+        ],
+        "qwen3_6_plus_2026_04_02": [
+          "entity_ambiguity",
+          "unsupported_claim"
+        ]
+      },
+      "ai_majority_label": "unfaithful",
+      "label_vote_counts": {
+        "unfaithful": 5
+      },
+      "ai_top_label_vote_fraction": "1.0"
+    },
+    "AUDIT-024": {
+      "audit_id": "AUDIT-024",
+      "suggested_issue_categories": [
+        "entity_ambiguity",
+        "over_specific_answer",
+        "unsupported_claim"
+      ],
+      "all_ai_issue_categories": [
+        "entity_ambiguity",
+        "over_specific_answer",
+        "unsupported_claim"
+      ],
+      "issue_category_counts": {
+        "entity_ambiguity": 5,
+        "over_specific_answer": 3,
+        "unsupported_claim": 1
+      },
+      "model_issue_categories": {
+        "qwen3_6_max_preview": [
+          "entity_ambiguity",
+          "over_specific_answer"
+        ],
+        "deepseek_v4_pro": [
+          "entity_ambiguity",
+          "over_specific_answer"
+        ],
+        "kimi_k2_6": [
+          "entity_ambiguity"
+        ],
+        "qwen3_max_2026_01_23": [
+          "entity_ambiguity",
+          "over_specific_answer"
+        ],
+        "qwen3_6_plus_2026_04_02": [
+          "entity_ambiguity",
+          "unsupported_claim"
+        ]
+      },
+      "ai_majority_label": "unfaithful",
+      "label_vote_counts": {
+        "unfaithful": 5
+      },
+      "ai_top_label_vote_fraction": "1.0"
+    },
+    "AUDIT-025": {
+      "audit_id": "AUDIT-025",
+      "suggested_issue_categories": [
+        "unsupported_claim",
+        "over_specific_answer",
+        "contradiction"
+      ],
+      "all_ai_issue_categories": [
+        "unsupported_claim",
+        "over_specific_answer",
+        "contradiction"
+      ],
+      "issue_category_counts": {
+        "contradiction": 2,
+        "unsupported_claim": 4,
+        "over_specific_answer": 3
+      },
+      "model_issue_categories": {
+        "qwen3_6_max_preview": [
+          "contradiction"
+        ],
+        "deepseek_v4_pro": [
+          "unsupported_claim",
+          "over_specific_answer"
+        ],
+        "kimi_k2_6": [
+          "unsupported_claim",
+          "over_specific_answer"
+        ],
+        "qwen3_max_2026_01_23": [
+          "unsupported_claim",
+          "over_specific_answer"
+        ],
+        "qwen3_6_plus_2026_04_02": [
+          "unsupported_claim",
+          "contradiction"
+        ]
+      },
+      "ai_majority_label": "unfaithful",
+      "label_vote_counts": {
+        "unfaithful": 5
+      },
+      "ai_top_label_vote_fraction": "1.0"
+    },
+    "AUDIT-026": {
+      "audit_id": "AUDIT-026",
+      "suggested_issue_categories": [
+        "evidence_conflict",
+        "contradiction",
+        "entity_ambiguity",
+        "numeric_error"
+      ],
+      "all_ai_issue_categories": [
+        "evidence_conflict",
+        "contradiction",
+        "entity_ambiguity",
+        "numeric_error"
+      ],
+      "issue_category_counts": {
+        "evidence_conflict": 5,
+        "entity_ambiguity": 1,
+        "contradiction": 1,
+        "numeric_error": 1
+      },
+      "model_issue_categories": {
+        "qwen3_6_max_preview": [
+          "evidence_conflict"
+        ],
+        "deepseek_v4_pro": [
+          "evidence_conflict",
+          "entity_ambiguity"
+        ],
+        "kimi_k2_6": [
+          "evidence_conflict",
+          "contradiction"
+        ],
+        "qwen3_max_2026_01_23": [
+          "evidence_conflict",
+          "numeric_error"
+        ],
+        "qwen3_6_plus_2026_04_02": [
+          "evidence_conflict"
+        ]
+      },
+      "ai_majority_label": "unfaithful",
+      "label_vote_counts": {
+        "unfaithful": 5
+      },
+      "ai_top_label_vote_fraction": "1.0"
+    },
+    "AUDIT-027": {
+      "audit_id": "AUDIT-027",
+      "suggested_issue_categories": [
+        "evidence_conflict",
+        "unsupported_claim",
+        "entity_ambiguity"
+      ],
+      "all_ai_issue_categories": [
+        "evidence_conflict",
+        "unsupported_claim",
+        "entity_ambiguity"
+      ],
+      "issue_category_counts": {
+        "evidence_conflict": 5,
+        "entity_ambiguity": 1,
+        "unsupported_claim": 1
+      },
+      "model_issue_categories": {
+        "qwen3_6_max_preview": [
+          "evidence_conflict"
+        ],
+        "deepseek_v4_pro": [
+          "evidence_conflict",
+          "entity_ambiguity"
+        ],
+        "kimi_k2_6": [
+          "evidence_conflict",
+          "unsupported_claim"
+        ],
+        "qwen3_max_2026_01_23": [
+          "evidence_conflict"
+        ],
+        "qwen3_6_plus_2026_04_02": [
+          "evidence_conflict"
+        ]
+      },
+      "ai_majority_label": "unfaithful",
+      "label_vote_counts": {
+        "unfaithful": 5
+      },
+      "ai_top_label_vote_fraction": "1.0"
+    },
+    "AUDIT-028": {
+      "audit_id": "AUDIT-028",
+      "suggested_issue_categories": [],
+      "all_ai_issue_categories": [],
+      "issue_category_counts": {},
+      "model_issue_categories": {
+        "qwen3_6_max_preview": [],
+        "deepseek_v4_pro": [],
+        "kimi_k2_6": [],
+        "qwen3_max_2026_01_23": [],
+        "qwen3_6_plus_2026_04_02": []
+      },
+      "ai_majority_label": "faithful",
+      "label_vote_counts": {
+        "faithful": 5
+      },
+      "ai_top_label_vote_fraction": "1.0"
+    },
+    "AUDIT-029": {
+      "audit_id": "AUDIT-029",
+      "suggested_issue_categories": [
+        "numeric_error",
+        "unsupported_claim",
+        "over_specific_answer"
+      ],
+      "all_ai_issue_categories": [
+        "numeric_error",
+        "unsupported_claim",
+        "over_specific_answer"
+      ],
+      "issue_category_counts": {
+        "numeric_error": 3,
+        "unsupported_claim": 1,
+        "over_specific_answer": 1
+      },
+      "model_issue_categories": {
+        "qwen3_6_max_preview": [
+          "numeric_error"
+        ],
+        "deepseek_v4_pro": [],
+        "kimi_k2_6": [
+          "numeric_error",
+          "unsupported_claim"
+        ],
+        "qwen3_max_2026_01_23": [
+          "over_specific_answer"
+        ],
+        "qwen3_6_plus_2026_04_02": [
+          "numeric_error"
+        ]
+      },
+      "ai_majority_label": "unfaithful",
+      "label_vote_counts": {
+        "unfaithful": 4,
+        "faithful": 1
+      },
+      "ai_top_label_vote_fraction": "0.8"
+    },
+    "AUDIT-030": {
+      "audit_id": "AUDIT-030",
+      "suggested_issue_categories": [
+        "entity_ambiguity",
+        "over_specific_answer"
+      ],
+      "all_ai_issue_categories": [
+        "entity_ambiguity",
+        "over_specific_answer"
+      ],
+      "issue_category_counts": {
+        "entity_ambiguity": 5,
+        "over_specific_answer": 2
+      },
+      "model_issue_categories": {
+        "qwen3_6_max_preview": [
+          "entity_ambiguity"
+        ],
+        "deepseek_v4_pro": [
+          "entity_ambiguity",
+          "over_specific_answer"
+        ],
+        "kimi_k2_6": [
+          "entity_ambiguity",
+          "over_specific_answer"
+        ],
+        "qwen3_max_2026_01_23": [
+          "entity_ambiguity"
+        ],
+        "qwen3_6_plus_2026_04_02": [
+          "entity_ambiguity"
+        ]
+      },
+      "ai_majority_label": "unfaithful",
+      "label_vote_counts": {
+        "unfaithful": 5
+      },
+      "ai_top_label_vote_fraction": "1.0"
+    },
+    "AUDIT-031": {
+      "audit_id": "AUDIT-031",
+      "suggested_issue_categories": [
+        "unsupported_claim",
+        "over_specific_answer"
+      ],
+      "all_ai_issue_categories": [
+        "unsupported_claim",
+        "over_specific_answer"
+      ],
+      "issue_category_counts": {
+        "unsupported_claim": 2,
+        "over_specific_answer": 1
+      },
+      "model_issue_categories": {
+        "qwen3_6_max_preview": [],
+        "deepseek_v4_pro": [],
+        "kimi_k2_6": [
+          "unsupported_claim",
+          "over_specific_answer"
+        ],
+        "qwen3_max_2026_01_23": [],
+        "qwen3_6_plus_2026_04_02": [
+          "unsupported_claim"
+        ]
+      },
+      "ai_majority_label": "faithful",
+      "label_vote_counts": {
+        "faithful": 3,
+        "unfaithful": 2
+      },
+      "ai_top_label_vote_fraction": "0.6"
+    },
+    "AUDIT-032": {
+      "audit_id": "AUDIT-032",
+      "suggested_issue_categories": [
+        "entity_ambiguity",
+        "evidence_conflict",
+        "over_specific_answer"
+      ],
+      "all_ai_issue_categories": [
+        "entity_ambiguity",
+        "evidence_conflict",
+        "over_specific_answer"
+      ],
+      "issue_category_counts": {
+        "entity_ambiguity": 5,
+        "over_specific_answer": 2,
+        "evidence_conflict": 4
+      },
+      "model_issue_categories": {
+        "qwen3_6_max_preview": [
+          "entity_ambiguity",
+          "over_specific_answer"
+        ],
+        "deepseek_v4_pro": [
+          "entity_ambiguity",
+          "evidence_conflict",
+          "over_specific_answer"
+        ],
+        "kimi_k2_6": [
+          "entity_ambiguity",
+          "evidence_conflict"
+        ],
+        "qwen3_max_2026_01_23": [
+          "evidence_conflict",
+          "entity_ambiguity"
+        ],
+        "qwen3_6_plus_2026_04_02": [
+          "evidence_conflict",
+          "entity_ambiguity"
+        ]
+      },
+      "ai_majority_label": "unfaithful",
+      "label_vote_counts": {
+        "unfaithful": 5
+      },
+      "ai_top_label_vote_fraction": "1.0"
+    },
+    "AUDIT-033": {
+      "audit_id": "AUDIT-033",
+      "suggested_issue_categories": [
+        "unsupported_claim",
+        "over_specific_answer"
+      ],
+      "all_ai_issue_categories": [
+        "unsupported_claim",
+        "over_specific_answer"
+      ],
+      "issue_category_counts": {
+        "unsupported_claim": 5,
+        "over_specific_answer": 3
+      },
+      "model_issue_categories": {
+        "qwen3_6_max_preview": [
+          "unsupported_claim"
+        ],
+        "deepseek_v4_pro": [
+          "unsupported_claim",
+          "over_specific_answer"
+        ],
+        "kimi_k2_6": [
+          "unsupported_claim",
+          "over_specific_answer"
+        ],
+        "qwen3_max_2026_01_23": [
+          "unsupported_claim",
+          "over_specific_answer"
+        ],
+        "qwen3_6_plus_2026_04_02": [
+          "unsupported_claim"
+        ]
+      },
+      "ai_majority_label": "unfaithful",
+      "label_vote_counts": {
+        "unfaithful": 5
+      },
+      "ai_top_label_vote_fraction": "1.0"
+    },
+    "AUDIT-034": {
+      "audit_id": "AUDIT-034",
+      "suggested_issue_categories": [
+        "unsupported_claim",
+        "over_specific_answer",
+        "contradiction"
+      ],
+      "all_ai_issue_categories": [
+        "unsupported_claim",
+        "over_specific_answer",
+        "contradiction"
+      ],
+      "issue_category_counts": {
+        "unsupported_claim": 5,
+        "over_specific_answer": 2,
+        "contradiction": 1
+      },
+      "model_issue_categories": {
+        "qwen3_6_max_preview": [
+          "unsupported_claim"
+        ],
+        "deepseek_v4_pro": [
+          "unsupported_claim",
+          "over_specific_answer"
+        ],
+        "kimi_k2_6": [
+          "unsupported_claim",
+          "contradiction"
+        ],
+        "qwen3_max_2026_01_23": [
+          "unsupported_claim",
+          "over_specific_answer"
+        ],
+        "qwen3_6_plus_2026_04_02": [
+          "unsupported_claim"
+        ]
+      },
+      "ai_majority_label": "unfaithful",
+      "label_vote_counts": {
+        "unfaithful": 5
+      },
+      "ai_top_label_vote_fraction": "1.0"
+    },
+    "AUDIT-035": {
+      "audit_id": "AUDIT-035",
+      "suggested_issue_categories": [
+        "unsupported_claim",
+        "over_specific_answer"
+      ],
+      "all_ai_issue_categories": [
+        "unsupported_claim",
+        "over_specific_answer"
+      ],
+      "issue_category_counts": {
+        "unsupported_claim": 2,
+        "over_specific_answer": 1
+      },
+      "model_issue_categories": {
+        "qwen3_6_max_preview": [],
+        "deepseek_v4_pro": [
+          "unsupported_claim"
+        ],
+        "kimi_k2_6": [
+          "unsupported_claim",
+          "over_specific_answer"
+        ],
+        "qwen3_max_2026_01_23": [],
+        "qwen3_6_plus_2026_04_02": []
+      },
+      "ai_majority_label": "faithful",
+      "label_vote_counts": {
+        "faithful": 3,
+        "unfaithful": 2
+      },
+      "ai_top_label_vote_fraction": "0.6"
+    },
+    "AUDIT-036": {
+      "audit_id": "AUDIT-036",
+      "suggested_issue_categories": [
+        "entity_ambiguity",
+        "over_specific_answer",
+        "contradiction",
+        "evidence_conflict"
+      ],
+      "all_ai_issue_categories": [
+        "entity_ambiguity",
+        "over_specific_answer",
+        "contradiction",
+        "evidence_conflict"
+      ],
+      "issue_category_counts": {
+        "entity_ambiguity": 5,
+        "over_specific_answer": 3,
+        "evidence_conflict": 1,
+        "contradiction": 1
+      },
+      "model_issue_categories": {
+        "qwen3_6_max_preview": [
+          "entity_ambiguity",
+          "over_specific_answer"
+        ],
+        "deepseek_v4_pro": [
+          "entity_ambiguity",
+          "over_specific_answer"
+        ],
+        "kimi_k2_6": [
+          "entity_ambiguity",
+          "evidence_conflict"
+        ],
+        "qwen3_max_2026_01_23": [
+          "entity_ambiguity",
+          "over_specific_answer"
+        ],
+        "qwen3_6_plus_2026_04_02": [
+          "entity_ambiguity",
+          "contradiction"
+        ]
+      },
+      "ai_majority_label": "unfaithful",
+      "label_vote_counts": {
+        "unfaithful": 5
+      },
+      "ai_top_label_vote_fraction": "1.0"
+    },
+    "AUDIT-037": {
+      "audit_id": "AUDIT-037",
+      "suggested_issue_categories": [
+        "entity_ambiguity",
+        "unsupported_claim",
+        "over_specific_answer"
+      ],
+      "all_ai_issue_categories": [
+        "entity_ambiguity",
+        "unsupported_claim",
+        "over_specific_answer"
+      ],
+      "issue_category_counts": {
+        "entity_ambiguity": 5,
+        "unsupported_claim": 2,
+        "over_specific_answer": 2
+      },
+      "model_issue_categories": {
+        "qwen3_6_max_preview": [
+          "entity_ambiguity",
+          "unsupported_claim"
+        ],
+        "deepseek_v4_pro": [
+          "entity_ambiguity",
+          "over_specific_answer"
+        ],
+        "kimi_k2_6": [
+          "entity_ambiguity",
+          "unsupported_claim"
+        ],
+        "qwen3_max_2026_01_23": [
+          "entity_ambiguity",
+          "over_specific_answer"
+        ],
+        "qwen3_6_plus_2026_04_02": [
+          "entity_ambiguity"
+        ]
+      },
+      "ai_majority_label": "unfaithful",
+      "label_vote_counts": {
+        "unfaithful": 5
+      },
+      "ai_top_label_vote_fraction": "1.0"
+    },
+    "AUDIT-038": {
+      "audit_id": "AUDIT-038",
+      "suggested_issue_categories": [
+        "entity_ambiguity",
+        "over_specific_answer",
+        "unsupported_claim",
+        "evidence_conflict",
+        "temporal_conflict",
+        "numeric_error"
+      ],
+      "all_ai_issue_categories": [
+        "entity_ambiguity",
+        "over_specific_answer",
+        "unsupported_claim",
+        "evidence_conflict",
+        "temporal_conflict",
+        "numeric_error"
+      ],
+      "issue_category_counts": {
+        "evidence_conflict": 1,
+        "over_specific_answer": 2,
+        "entity_ambiguity": 3,
+        "temporal_conflict": 1,
+        "numeric_error": 1,
+        "unsupported_claim": 1
+      },
+      "model_issue_categories": {
+        "qwen3_6_max_preview": [
+          "evidence_conflict",
+          "over_specific_answer"
+        ],
+        "deepseek_v4_pro": [
+          "entity_ambiguity",
+          "over_specific_answer"
+        ],
+        "kimi_k2_6": [
+          "entity_ambiguity"
+        ],
+        "qwen3_max_2026_01_23": [
+          "temporal_conflict",
+          "numeric_error"
+        ],
+        "qwen3_6_plus_2026_04_02": [
+          "entity_ambiguity",
+          "unsupported_claim"
+        ]
+      },
+      "ai_majority_label": "unfaithful",
+      "label_vote_counts": {
+        "unfaithful": 5
+      },
+      "ai_top_label_vote_fraction": "1.0"
+    },
+    "AUDIT-039": {
+      "audit_id": "AUDIT-039",
+      "suggested_issue_categories": [
+        "evidence_conflict",
+        "entity_ambiguity",
+        "numeric_error",
+        "over_specific_answer"
+      ],
+      "all_ai_issue_categories": [
+        "evidence_conflict",
+        "entity_ambiguity",
+        "numeric_error",
+        "over_specific_answer"
+      ],
+      "issue_category_counts": {
+        "evidence_conflict": 5,
+        "entity_ambiguity": 2,
+        "over_specific_answer": 1,
+        "numeric_error": 1
+      },
+      "model_issue_categories": {
+        "qwen3_6_max_preview": [
+          "evidence_conflict"
+        ],
+        "deepseek_v4_pro": [
+          "evidence_conflict",
+          "entity_ambiguity",
+          "over_specific_answer"
+        ],
+        "kimi_k2_6": [
+          "evidence_conflict",
+          "entity_ambiguity"
+        ],
+        "qwen3_max_2026_01_23": [
+          "evidence_conflict",
+          "numeric_error"
+        ],
+        "qwen3_6_plus_2026_04_02": [
+          "evidence_conflict"
+        ]
+      },
+      "ai_majority_label": "unfaithful",
+      "label_vote_counts": {
+        "unfaithful": 5
+      },
+      "ai_top_label_vote_fraction": "1.0"
+    },
+    "AUDIT-040": {
+      "audit_id": "AUDIT-040",
+      "suggested_issue_categories": [
+        "entity_ambiguity",
+        "unsupported_claim",
+        "over_specific_answer"
+      ],
+      "all_ai_issue_categories": [
+        "entity_ambiguity",
+        "unsupported_claim",
+        "over_specific_answer"
+      ],
+      "issue_category_counts": {
+        "entity_ambiguity": 5,
+        "over_specific_answer": 1,
+        "unsupported_claim": 1
+      },
+      "model_issue_categories": {
+        "qwen3_6_max_preview": [
+          "entity_ambiguity"
+        ],
+        "deepseek_v4_pro": [
+          "entity_ambiguity",
+          "over_specific_answer"
+        ],
+        "kimi_k2_6": [
+          "entity_ambiguity",
+          "unsupported_claim"
+        ],
+        "qwen3_max_2026_01_23": [
+          "entity_ambiguity"
+        ],
+        "qwen3_6_plus_2026_04_02": [
+          "entity_ambiguity"
+        ]
+      },
+      "ai_majority_label": "unfaithful",
+      "label_vote_counts": {
+        "unfaithful": 5
+      },
+      "ai_top_label_vote_fraction": "1.0"
+    },
+    "AUDIT-041": {
+      "audit_id": "AUDIT-041",
+      "suggested_issue_categories": [
+        "evidence_conflict",
+        "entity_ambiguity",
+        "numeric_error",
+        "over_specific_answer"
+      ],
+      "all_ai_issue_categories": [
+        "evidence_conflict",
+        "entity_ambiguity",
+        "numeric_error",
+        "over_specific_answer"
+      ],
+      "issue_category_counts": {
+        "entity_ambiguity": 4,
+        "evidence_conflict": 5,
+        "over_specific_answer": 1,
+        "numeric_error": 1
+      },
+      "model_issue_categories": {
+        "qwen3_6_max_preview": [
+          "entity_ambiguity",
+          "evidence_conflict"
+        ],
+        "deepseek_v4_pro": [
+          "evidence_conflict",
+          "entity_ambiguity",
+          "over_specific_answer"
+        ],
+        "kimi_k2_6": [
+          "evidence_conflict",
+          "entity_ambiguity"
+        ],
+        "qwen3_max_2026_01_23": [
+          "evidence_conflict",
+          "numeric_error"
+        ],
+        "qwen3_6_plus_2026_04_02": [
+          "entity_ambiguity",
+          "evidence_conflict"
+        ]
+      },
+      "ai_majority_label": "unfaithful",
+      "label_vote_counts": {
+        "unfaithful": 5
+      },
+      "ai_top_label_vote_fraction": "1.0"
+    },
+    "AUDIT-042": {
+      "audit_id": "AUDIT-042",
+      "suggested_issue_categories": [
+        "evidence_conflict",
+        "over_specific_answer",
+        "entity_ambiguity",
+        "unsupported_claim"
+      ],
+      "all_ai_issue_categories": [
+        "evidence_conflict",
+        "over_specific_answer",
+        "entity_ambiguity",
+        "unsupported_claim"
+      ],
+      "issue_category_counts": {
+        "entity_ambiguity": 2,
+        "over_specific_answer": 3,
+        "evidence_conflict": 4,
+        "unsupported_claim": 1
+      },
+      "model_issue_categories": {
+        "qwen3_6_max_preview": [
+          "entity_ambiguity",
+          "over_specific_answer"
+        ],
+        "deepseek_v4_pro": [
+          "entity_ambiguity",
+          "evidence_conflict",
+          "over_specific_answer"
+        ],
+        "kimi_k2_6": [
+          "evidence_conflict",
+          "unsupported_claim"
+        ],
+        "qwen3_max_2026_01_23": [
+          "evidence_conflict",
+          "over_specific_answer"
+        ],
+        "qwen3_6_plus_2026_04_02": [
+          "evidence_conflict"
+        ]
+      },
+      "ai_majority_label": "unfaithful",
+      "label_vote_counts": {
+        "unfaithful": 5
+      },
+      "ai_top_label_vote_fraction": "1.0"
+    },
+    "AUDIT-043": {
+      "audit_id": "AUDIT-043",
+      "suggested_issue_categories": [
+        "evidence_conflict",
+        "unsupported_claim",
+        "over_specific_answer"
+      ],
+      "all_ai_issue_categories": [
+        "evidence_conflict",
+        "unsupported_claim",
+        "over_specific_answer"
+      ],
+      "issue_category_counts": {
+        "evidence_conflict": 4,
+        "over_specific_answer": 1,
+        "unsupported_claim": 2
+      },
+      "model_issue_categories": {
+        "qwen3_6_max_preview": [
+          "evidence_conflict"
+        ],
+        "deepseek_v4_pro": [
+          "evidence_conflict",
+          "over_specific_answer"
+        ],
+        "kimi_k2_6": [
+          "evidence_conflict",
+          "unsupported_claim"
+        ],
+        "qwen3_max_2026_01_23": [
+          "unsupported_claim",
+          "evidence_conflict"
+        ],
+        "qwen3_6_plus_2026_04_02": []
+      },
+      "ai_majority_label": "unfaithful",
+      "label_vote_counts": {
+        "unfaithful": 4,
+        "faithful": 1
+      },
+      "ai_top_label_vote_fraction": "0.8"
+    },
+    "AUDIT-044": {
+      "audit_id": "AUDIT-044",
+      "suggested_issue_categories": [],
+      "all_ai_issue_categories": [],
+      "issue_category_counts": {},
+      "model_issue_categories": {
+        "qwen3_6_max_preview": [],
+        "deepseek_v4_pro": [],
+        "kimi_k2_6": [],
+        "qwen3_max_2026_01_23": [],
+        "qwen3_6_plus_2026_04_02": []
+      },
+      "ai_majority_label": "faithful",
+      "label_vote_counts": {
+        "faithful": 5
+      },
+      "ai_top_label_vote_fraction": "1.0"
+    },
+    "AUDIT-045": {
+      "audit_id": "AUDIT-045",
+      "suggested_issue_categories": [
+        "entity_ambiguity",
+        "evidence_conflict",
+        "unsupported_claim",
+        "over_specific_answer"
+      ],
+      "all_ai_issue_categories": [
+        "entity_ambiguity",
+        "evidence_conflict",
+        "unsupported_claim",
+        "over_specific_answer"
+      ],
+      "issue_category_counts": {
+        "evidence_conflict": 4,
+        "entity_ambiguity": 5,
+        "over_specific_answer": 1,
+        "unsupported_claim": 1
+      },
+      "model_issue_categories": {
+        "qwen3_6_max_preview": [
+          "evidence_conflict",
+          "entity_ambiguity"
+        ],
+        "deepseek_v4_pro": [
+          "entity_ambiguity",
+          "evidence_conflict",
+          "over_specific_answer"
+        ],
+        "kimi_k2_6": [
+          "entity_ambiguity",
+          "unsupported_claim"
+        ],
+        "qwen3_max_2026_01_23": [
+          "entity_ambiguity",
+          "evidence_conflict"
+        ],
+        "qwen3_6_plus_2026_04_02": [
+          "entity_ambiguity",
+          "evidence_conflict"
+        ]
+      },
+      "ai_majority_label": "unfaithful",
+      "label_vote_counts": {
+        "unfaithful": 5
+      },
+      "ai_top_label_vote_fraction": "1.0"
+    },
+    "AUDIT-046": {
+      "audit_id": "AUDIT-046",
+      "suggested_issue_categories": [
+        "unsupported_claim",
+        "over_specific_answer"
+      ],
+      "all_ai_issue_categories": [
+        "unsupported_claim",
+        "over_specific_answer"
+      ],
+      "issue_category_counts": {
+        "unsupported_claim": 5,
+        "over_specific_answer": 1
+      },
+      "model_issue_categories": {
+        "qwen3_6_max_preview": [
+          "unsupported_claim"
+        ],
+        "deepseek_v4_pro": [
+          "unsupported_claim"
+        ],
+        "kimi_k2_6": [
+          "unsupported_claim"
+        ],
+        "qwen3_max_2026_01_23": [
+          "unsupported_claim",
+          "over_specific_answer"
+        ],
+        "qwen3_6_plus_2026_04_02": [
+          "unsupported_claim"
+        ]
+      },
+      "ai_majority_label": "unfaithful",
+      "label_vote_counts": {
+        "unfaithful": 5
+      },
+      "ai_top_label_vote_fraction": "1.0"
+    },
+    "AUDIT-047": {
+      "audit_id": "AUDIT-047",
+      "suggested_issue_categories": [
+        "unsupported_claim",
+        "over_specific_answer"
+      ],
+      "all_ai_issue_categories": [
+        "unsupported_claim",
+        "over_specific_answer"
+      ],
+      "issue_category_counts": {
+        "unsupported_claim": 5,
+        "over_specific_answer": 4
+      },
+      "model_issue_categories": {
+        "qwen3_6_max_preview": [
+          "unsupported_claim",
+          "over_specific_answer"
+        ],
+        "deepseek_v4_pro": [
+          "unsupported_claim",
+          "over_specific_answer"
+        ],
+        "kimi_k2_6": [
+          "unsupported_claim",
+          "over_specific_answer"
+        ],
+        "qwen3_max_2026_01_23": [
+          "unsupported_claim",
+          "over_specific_answer"
+        ],
+        "qwen3_6_plus_2026_04_02": [
+          "unsupported_claim"
+        ]
+      },
+      "ai_majority_label": "unfaithful",
+      "label_vote_counts": {
+        "unfaithful": 5
+      },
+      "ai_top_label_vote_fraction": "1.0"
+    },
+    "AUDIT-048": {
+      "audit_id": "AUDIT-048",
+      "suggested_issue_categories": [
+        "unsupported_claim",
+        "entity_ambiguity",
+        "over_specific_answer"
+      ],
+      "all_ai_issue_categories": [
+        "unsupported_claim",
+        "entity_ambiguity",
+        "over_specific_answer"
+      ],
+      "issue_category_counts": {
+        "unsupported_claim": 5,
+        "entity_ambiguity": 2,
+        "over_specific_answer": 2
+      },
+      "model_issue_categories": {
+        "qwen3_6_max_preview": [
+          "unsupported_claim"
+        ],
+        "deepseek_v4_pro": [
+          "unsupported_claim",
+          "entity_ambiguity"
+        ],
+        "kimi_k2_6": [
+          "unsupported_claim",
+          "over_specific_answer"
+        ],
+        "qwen3_max_2026_01_23": [
+          "unsupported_claim",
+          "over_specific_answer"
+        ],
+        "qwen3_6_plus_2026_04_02": [
+          "unsupported_claim",
+          "entity_ambiguity"
+        ]
+      },
+      "ai_majority_label": "unfaithful",
+      "label_vote_counts": {
+        "unfaithful": 5
+      },
+      "ai_top_label_vote_fraction": "1.0"
+    },
+    "AUDIT-049": {
+      "audit_id": "AUDIT-049",
+      "suggested_issue_categories": [
+        "unsupported_claim",
+        "contradiction",
+        "over_specific_answer",
+        "entity_ambiguity"
+      ],
+      "all_ai_issue_categories": [
+        "unsupported_claim",
+        "contradiction",
+        "over_specific_answer",
+        "entity_ambiguity"
+      ],
+      "issue_category_counts": {
+        "unsupported_claim": 5,
+        "contradiction": 2,
+        "entity_ambiguity": 1,
+        "over_specific_answer": 2
+      },
+      "model_issue_categories": {
+        "qwen3_6_max_preview": [
+          "unsupported_claim",
+          "contradiction"
+        ],
+        "deepseek_v4_pro": [
+          "unsupported_claim",
+          "entity_ambiguity"
+        ],
+        "kimi_k2_6": [
+          "unsupported_claim",
+          "over_specific_answer"
+        ],
+        "qwen3_max_2026_01_23": [
+          "unsupported_claim",
+          "over_specific_answer"
+        ],
+        "qwen3_6_plus_2026_04_02": [
+          "unsupported_claim",
+          "contradiction"
+        ]
+      },
+      "ai_majority_label": "unfaithful",
+      "label_vote_counts": {
+        "unfaithful": 5
+      },
+      "ai_top_label_vote_fraction": "1.0"
+    },
+    "AUDIT-050": {
+      "audit_id": "AUDIT-050",
+      "suggested_issue_categories": [
+        "entity_ambiguity",
+        "over_specific_answer",
+        "evidence_conflict"
+      ],
+      "all_ai_issue_categories": [
+        "entity_ambiguity",
+        "over_specific_answer",
+        "evidence_conflict"
+      ],
+      "issue_category_counts": {
+        "evidence_conflict": 1,
+        "entity_ambiguity": 2,
+        "over_specific_answer": 2
+      },
+      "model_issue_categories": {
+        "qwen3_6_max_preview": [],
+        "deepseek_v4_pro": [
+          "evidence_conflict",
+          "entity_ambiguity",
+          "over_specific_answer"
+        ],
+        "kimi_k2_6": [
+          "entity_ambiguity",
+          "over_specific_answer"
+        ],
+        "qwen3_max_2026_01_23": [],
+        "qwen3_6_plus_2026_04_02": []
+      },
+      "ai_majority_label": "faithful",
+      "label_vote_counts": {
+        "faithful": 3,
+        "unfaithful": 2
+      },
+      "ai_top_label_vote_fraction": "0.6"
+    },
+    "AUDIT-051": {
+      "audit_id": "AUDIT-051",
+      "suggested_issue_categories": [
+        "numeric_error",
+        "unsupported_claim",
+        "over_specific_answer"
+      ],
+      "all_ai_issue_categories": [
+        "numeric_error",
+        "unsupported_claim",
+        "over_specific_answer"
+      ],
+      "issue_category_counts": {
+        "numeric_error": 5,
+        "unsupported_claim": 2,
+        "over_specific_answer": 2
+      },
+      "model_issue_categories": {
+        "qwen3_6_max_preview": [
+          "numeric_error",
+          "unsupported_claim"
+        ],
+        "deepseek_v4_pro": [
+          "numeric_error",
+          "over_specific_answer"
+        ],
+        "kimi_k2_6": [
+          "unsupported_claim",
+          "numeric_error"
+        ],
+        "qwen3_max_2026_01_23": [
+          "numeric_error",
+          "over_specific_answer"
+        ],
+        "qwen3_6_plus_2026_04_02": [
+          "numeric_error"
+        ]
+      },
+      "ai_majority_label": "unfaithful",
+      "label_vote_counts": {
+        "unfaithful": 5
+      },
+      "ai_top_label_vote_fraction": "1.0"
+    },
+    "AUDIT-052": {
+      "audit_id": "AUDIT-052",
+      "suggested_issue_categories": [
+        "unsupported_claim",
+        "over_specific_answer",
+        "evidence_conflict"
+      ],
+      "all_ai_issue_categories": [
+        "unsupported_claim",
+        "over_specific_answer",
+        "evidence_conflict"
+      ],
+      "issue_category_counts": {
+        "unsupported_claim": 5,
+        "evidence_conflict": 1,
+        "over_specific_answer": 2
+      },
+      "model_issue_categories": {
+        "qwen3_6_max_preview": [
+          "unsupported_claim"
+        ],
+        "deepseek_v4_pro": [
+          "unsupported_claim",
+          "evidence_conflict"
+        ],
+        "kimi_k2_6": [
+          "unsupported_claim",
+          "over_specific_answer"
+        ],
+        "qwen3_max_2026_01_23": [
+          "unsupported_claim",
+          "over_specific_answer"
+        ],
+        "qwen3_6_plus_2026_04_02": [
+          "unsupported_claim"
+        ]
+      },
+      "ai_majority_label": "unfaithful",
+      "label_vote_counts": {
+        "unfaithful": 5
+      },
+      "ai_top_label_vote_fraction": "1.0"
+    },
+    "AUDIT-053": {
+      "audit_id": "AUDIT-053",
+      "suggested_issue_categories": [
+        "unsupported_claim",
+        "entity_ambiguity",
+        "over_specific_answer"
+      ],
+      "all_ai_issue_categories": [
+        "unsupported_claim",
+        "entity_ambiguity",
+        "over_specific_answer"
+      ],
+      "issue_category_counts": {
+        "unsupported_claim": 5,
+        "entity_ambiguity": 2,
+        "over_specific_answer": 2
+      },
+      "model_issue_categories": {
+        "qwen3_6_max_preview": [
+          "unsupported_claim"
+        ],
+        "deepseek_v4_pro": [
+          "unsupported_claim",
+          "entity_ambiguity"
+        ],
+        "kimi_k2_6": [
+          "unsupported_claim",
+          "over_specific_answer"
+        ],
+        "qwen3_max_2026_01_23": [
+          "unsupported_claim",
+          "over_specific_answer"
+        ],
+        "qwen3_6_plus_2026_04_02": [
+          "unsupported_claim",
+          "entity_ambiguity"
+        ]
+      },
+      "ai_majority_label": "unfaithful",
+      "label_vote_counts": {
+        "unfaithful": 5
+      },
+      "ai_top_label_vote_fraction": "1.0"
+    },
+    "AUDIT-054": {
+      "audit_id": "AUDIT-054",
+      "suggested_issue_categories": [
+        "unsupported_claim",
+        "over_specific_answer"
+      ],
+      "all_ai_issue_categories": [
+        "unsupported_claim",
+        "over_specific_answer"
+      ],
+      "issue_category_counts": {
+        "unsupported_claim": 4,
+        "over_specific_answer": 3
+      },
+      "model_issue_categories": {
+        "qwen3_6_max_preview": [
+          "unsupported_claim"
+        ],
+        "deepseek_v4_pro": [
+          "unsupported_claim",
+          "over_specific_answer"
+        ],
+        "kimi_k2_6": [
+          "unsupported_claim",
+          "over_specific_answer"
+        ],
+        "qwen3_max_2026_01_23": [
+          "over_specific_answer"
+        ],
+        "qwen3_6_plus_2026_04_02": [
+          "unsupported_claim"
+        ]
+      },
+      "ai_majority_label": "unfaithful",
+      "label_vote_counts": {
+        "unfaithful": 5
+      },
+      "ai_top_label_vote_fraction": "1.0"
+    },
+    "AUDIT-055": {
+      "audit_id": "AUDIT-055",
+      "suggested_issue_categories": [
+        "unsupported_claim"
+      ],
+      "all_ai_issue_categories": [
+        "unsupported_claim"
+      ],
+      "issue_category_counts": {
+        "unsupported_claim": 3
+      },
+      "model_issue_categories": {
+        "qwen3_6_max_preview": [
+          "unsupported_claim"
+        ],
+        "deepseek_v4_pro": [],
+        "kimi_k2_6": [
+          "unsupported_claim"
+        ],
+        "qwen3_max_2026_01_23": [],
+        "qwen3_6_plus_2026_04_02": [
+          "unsupported_claim"
+        ]
+      },
+      "ai_majority_label": "unfaithful",
+      "label_vote_counts": {
+        "unfaithful": 3,
+        "faithful": 2
+      },
+      "ai_top_label_vote_fraction": "0.6"
+    },
+    "AUDIT-056": {
+      "audit_id": "AUDIT-056",
+      "suggested_issue_categories": [
+        "unsupported_claim",
+        "entity_ambiguity",
+        "over_specific_answer"
+      ],
+      "all_ai_issue_categories": [
+        "unsupported_claim",
+        "entity_ambiguity",
+        "over_specific_answer"
+      ],
+      "issue_category_counts": {
+        "unsupported_claim": 5,
+        "entity_ambiguity": 3,
+        "over_specific_answer": 2
+      },
+      "model_issue_categories": {
+        "qwen3_6_max_preview": [
+          "unsupported_claim",
+          "entity_ambiguity"
+        ],
+        "deepseek_v4_pro": [
+          "unsupported_claim",
+          "entity_ambiguity"
+        ],
+        "kimi_k2_6": [
+          "unsupported_claim",
+          "over_specific_answer"
+        ],
+        "qwen3_max_2026_01_23": [
+          "unsupported_claim",
+          "over_specific_answer"
+        ],
+        "qwen3_6_plus_2026_04_02": [
+          "unsupported_claim",
+          "entity_ambiguity"
+        ]
+      },
+      "ai_majority_label": "unfaithful",
+      "label_vote_counts": {
+        "unfaithful": 5
+      },
+      "ai_top_label_vote_fraction": "1.0"
+    },
+    "AUDIT-057": {
+      "audit_id": "AUDIT-057",
+      "suggested_issue_categories": [
+        "unsupported_claim",
+        "over_specific_answer"
+      ],
+      "all_ai_issue_categories": [
+        "unsupported_claim",
+        "over_specific_answer"
+      ],
+      "issue_category_counts": {
+        "unsupported_claim": 5,
+        "over_specific_answer": 2
+      },
+      "model_issue_categories": {
+        "qwen3_6_max_preview": [
+          "unsupported_claim"
+        ],
+        "deepseek_v4_pro": [
+          "unsupported_claim"
+        ],
+        "kimi_k2_6": [
+          "unsupported_claim",
+          "over_specific_answer"
+        ],
+        "qwen3_max_2026_01_23": [
+          "unsupported_claim",
+          "over_specific_answer"
+        ],
+        "qwen3_6_plus_2026_04_02": [
+          "unsupported_claim"
+        ]
+      },
+      "ai_majority_label": "unfaithful",
+      "label_vote_counts": {
+        "unfaithful": 5
+      },
+      "ai_top_label_vote_fraction": "1.0"
+    },
+    "AUDIT-058": {
+      "audit_id": "AUDIT-058",
+      "suggested_issue_categories": [],
+      "all_ai_issue_categories": [],
+      "issue_category_counts": {},
+      "model_issue_categories": {
+        "qwen3_6_max_preview": [],
+        "deepseek_v4_pro": [],
+        "kimi_k2_6": [],
+        "qwen3_max_2026_01_23": [],
+        "qwen3_6_plus_2026_04_02": []
+      },
+      "ai_majority_label": "faithful",
+      "label_vote_counts": {
+        "faithful": 5
+      },
+      "ai_top_label_vote_fraction": "1.0"
+    },
+    "AUDIT-059": {
+      "audit_id": "AUDIT-059",
+      "suggested_issue_categories": [
+        "unsupported_claim",
+        "over_specific_answer"
+      ],
+      "all_ai_issue_categories": [
+        "unsupported_claim",
+        "over_specific_answer"
+      ],
+      "issue_category_counts": {
+        "unsupported_claim": 5,
+        "over_specific_answer": 3
+      },
+      "model_issue_categories": {
+        "qwen3_6_max_preview": [
+          "unsupported_claim"
+        ],
+        "deepseek_v4_pro": [
+          "unsupported_claim",
+          "over_specific_answer"
+        ],
+        "kimi_k2_6": [
+          "unsupported_claim",
+          "over_specific_answer"
+        ],
+        "qwen3_max_2026_01_23": [
+          "unsupported_claim",
+          "over_specific_answer"
+        ],
+        "qwen3_6_plus_2026_04_02": [
+          "unsupported_claim"
+        ]
+      },
+      "ai_majority_label": "unfaithful",
+      "label_vote_counts": {
+        "unfaithful": 5
+      },
+      "ai_top_label_vote_fraction": "1.0"
+    },
+    "AUDIT-060": {
+      "audit_id": "AUDIT-060",
+      "suggested_issue_categories": [
+        "unsupported_claim",
+        "numeric_error",
+        "over_specific_answer"
+      ],
+      "all_ai_issue_categories": [
+        "unsupported_claim",
+        "numeric_error",
+        "over_specific_answer"
+      ],
+      "issue_category_counts": {
+        "unsupported_claim": 5,
+        "numeric_error": 2,
+        "over_specific_answer": 1
+      },
+      "model_issue_categories": {
+        "qwen3_6_max_preview": [
+          "unsupported_claim"
+        ],
+        "deepseek_v4_pro": [
+          "unsupported_claim",
+          "numeric_error"
+        ],
+        "kimi_k2_6": [
+          "unsupported_claim",
+          "numeric_error"
+        ],
+        "qwen3_max_2026_01_23": [
+          "unsupported_claim",
+          "over_specific_answer"
+        ],
+        "qwen3_6_plus_2026_04_02": [
+          "unsupported_claim"
+        ]
+      },
+      "ai_majority_label": "unfaithful",
+      "label_vote_counts": {
+        "unfaithful": 5
+      },
+      "ai_top_label_vote_fraction": "1.0"
+    },
+    "AUDIT-061": {
+      "audit_id": "AUDIT-061",
+      "suggested_issue_categories": [
+        "evidence_conflict",
+        "entity_ambiguity",
+        "over_specific_answer"
+      ],
+      "all_ai_issue_categories": [
+        "evidence_conflict",
+        "entity_ambiguity",
+        "over_specific_answer"
+      ],
+      "issue_category_counts": {
+        "evidence_conflict": 5,
+        "entity_ambiguity": 3,
+        "over_specific_answer": 1
+      },
+      "model_issue_categories": {
+        "qwen3_6_max_preview": [
+          "evidence_conflict"
+        ],
+        "deepseek_v4_pro": [
+          "evidence_conflict",
+          "entity_ambiguity",
+          "over_specific_answer"
+        ],
+        "kimi_k2_6": [
+          "evidence_conflict",
+          "entity_ambiguity"
+        ],
+        "qwen3_max_2026_01_23": [
+          "evidence_conflict",
+          "entity_ambiguity"
+        ],
+        "qwen3_6_plus_2026_04_02": [
+          "evidence_conflict"
+        ]
+      },
+      "ai_majority_label": "unfaithful",
+      "label_vote_counts": {
+        "unfaithful": 5
+      },
+      "ai_top_label_vote_fraction": "1.0"
+    },
+    "AUDIT-062": {
+      "audit_id": "AUDIT-062",
+      "suggested_issue_categories": [
+        "entity_ambiguity",
+        "evidence_conflict",
+        "over_specific_answer",
+        "unsupported_claim",
+        "contradiction"
+      ],
+      "all_ai_issue_categories": [
+        "entity_ambiguity",
+        "evidence_conflict",
+        "over_specific_answer",
+        "unsupported_claim",
+        "contradiction"
+      ],
+      "issue_category_counts": {
+        "entity_ambiguity": 5,
+        "unsupported_claim": 1,
+        "evidence_conflict": 2,
+        "over_specific_answer": 2,
+        "contradiction": 1
+      },
+      "model_issue_categories": {
+        "qwen3_6_max_preview": [
+          "entity_ambiguity",
+          "unsupported_claim"
+        ],
+        "deepseek_v4_pro": [
+          "entity_ambiguity",
+          "evidence_conflict",
+          "over_specific_answer"
+        ],
+        "kimi_k2_6": [
+          "evidence_conflict",
+          "entity_ambiguity"
+        ],
+        "qwen3_max_2026_01_23": [
+          "entity_ambiguity",
+          "over_specific_answer"
+        ],
+        "qwen3_6_plus_2026_04_02": [
+          "entity_ambiguity",
+          "contradiction"
+        ]
+      },
+      "ai_majority_label": "unfaithful",
+      "label_vote_counts": {
+        "unfaithful": 5
+      },
+      "ai_top_label_vote_fraction": "1.0"
+    },
+    "AUDIT-063": {
+      "audit_id": "AUDIT-063",
+      "suggested_issue_categories": [
+        "unsupported_claim",
+        "over_specific_answer"
+      ],
+      "all_ai_issue_categories": [
+        "unsupported_claim",
+        "over_specific_answer"
+      ],
+      "issue_category_counts": {
+        "unsupported_claim": 5,
+        "over_specific_answer": 3
+      },
+      "model_issue_categories": {
+        "qwen3_6_max_preview": [
+          "unsupported_claim"
+        ],
+        "deepseek_v4_pro": [
+          "unsupported_claim",
+          "over_specific_answer"
+        ],
+        "kimi_k2_6": [
+          "unsupported_claim",
+          "over_specific_answer"
+        ],
+        "qwen3_max_2026_01_23": [
+          "over_specific_answer",
+          "unsupported_claim"
+        ],
+        "qwen3_6_plus_2026_04_02": [
+          "unsupported_claim"
+        ]
+      },
+      "ai_majority_label": "unfaithful",
+      "label_vote_counts": {
+        "unfaithful": 5
+      },
+      "ai_top_label_vote_fraction": "1.0"
+    },
+    "AUDIT-064": {
+      "audit_id": "AUDIT-064",
+      "suggested_issue_categories": [
+        "unsupported_claim",
+        "over_specific_answer"
+      ],
+      "all_ai_issue_categories": [
+        "unsupported_claim",
+        "over_specific_answer"
+      ],
+      "issue_category_counts": {
+        "unsupported_claim": 5,
+        "over_specific_answer": 3
+      },
+      "model_issue_categories": {
+        "qwen3_6_max_preview": [
+          "unsupported_claim"
+        ],
+        "deepseek_v4_pro": [
+          "unsupported_claim",
+          "over_specific_answer"
+        ],
+        "kimi_k2_6": [
+          "unsupported_claim",
+          "over_specific_answer"
+        ],
+        "qwen3_max_2026_01_23": [
+          "over_specific_answer",
+          "unsupported_claim"
+        ],
+        "qwen3_6_plus_2026_04_02": [
+          "unsupported_claim"
+        ]
+      },
+      "ai_majority_label": "unfaithful",
+      "label_vote_counts": {
+        "unfaithful": 5
+      },
+      "ai_top_label_vote_fraction": "1.0"
+    },
+    "AUDIT-065": {
+      "audit_id": "AUDIT-065",
+      "suggested_issue_categories": [
+        "evidence_conflict",
+        "entity_ambiguity",
+        "contradiction",
+        "numeric_error",
+        "over_specific_answer"
+      ],
+      "all_ai_issue_categories": [
+        "evidence_conflict",
+        "entity_ambiguity",
+        "contradiction",
+        "numeric_error",
+        "over_specific_answer"
+      ],
+      "issue_category_counts": {
+        "evidence_conflict": 5,
+        "entity_ambiguity": 2,
+        "over_specific_answer": 1,
+        "contradiction": 1,
+        "numeric_error": 1
+      },
+      "model_issue_categories": {
+        "qwen3_6_max_preview": [
+          "evidence_conflict"
+        ],
+        "deepseek_v4_pro": [
+          "evidence_conflict",
+          "entity_ambiguity",
+          "over_specific_answer"
+        ],
+        "kimi_k2_6": [
+          "contradiction",
+          "evidence_conflict"
+        ],
+        "qwen3_max_2026_01_23": [
+          "evidence_conflict",
+          "numeric_error"
+        ],
+        "qwen3_6_plus_2026_04_02": [
+          "evidence_conflict",
+          "entity_ambiguity"
+        ]
+      },
+      "ai_majority_label": "unfaithful",
+      "label_vote_counts": {
+        "unfaithful": 5
+      },
+      "ai_top_label_vote_fraction": "1.0"
+    },
+    "AUDIT-066": {
+      "audit_id": "AUDIT-066",
+      "suggested_issue_categories": [
+        "unsupported_claim",
+        "over_specific_answer"
+      ],
+      "all_ai_issue_categories": [
+        "unsupported_claim",
+        "over_specific_answer"
+      ],
+      "issue_category_counts": {
+        "unsupported_claim": 5,
+        "over_specific_answer": 3
+      },
+      "model_issue_categories": {
+        "qwen3_6_max_preview": [
+          "unsupported_claim"
+        ],
+        "deepseek_v4_pro": [
+          "unsupported_claim",
+          "over_specific_answer"
+        ],
+        "kimi_k2_6": [
+          "unsupported_claim",
+          "over_specific_answer"
+        ],
+        "qwen3_max_2026_01_23": [
+          "unsupported_claim",
+          "over_specific_answer"
+        ],
+        "qwen3_6_plus_2026_04_02": [
+          "unsupported_claim"
+        ]
+      },
+      "ai_majority_label": "unfaithful",
+      "label_vote_counts": {
+        "unfaithful": 5
+      },
+      "ai_top_label_vote_fraction": "1.0"
+    },
+    "AUDIT-067": {
+      "audit_id": "AUDIT-067",
+      "suggested_issue_categories": [
+        "unsupported_claim",
+        "over_specific_answer"
+      ],
+      "all_ai_issue_categories": [
+        "unsupported_claim",
+        "over_specific_answer"
+      ],
+      "issue_category_counts": {
+        "unsupported_claim": 4,
+        "over_specific_answer": 2
+      },
+      "model_issue_categories": {
+        "qwen3_6_max_preview": [
+          "unsupported_claim"
+        ],
+        "deepseek_v4_pro": [
+          "unsupported_claim",
+          "over_specific_answer"
+        ],
+        "kimi_k2_6": [
+          "unsupported_claim",
+          "over_specific_answer"
+        ],
+        "qwen3_max_2026_01_23": [],
+        "qwen3_6_plus_2026_04_02": [
+          "unsupported_claim"
+        ]
+      },
+      "ai_majority_label": "unfaithful",
+      "label_vote_counts": {
+        "unfaithful": 4,
+        "faithful": 1
+      },
+      "ai_top_label_vote_fraction": "0.8"
+    },
+    "AUDIT-068": {
+      "audit_id": "AUDIT-068",
+      "suggested_issue_categories": [
+        "entity_ambiguity",
+        "over_specific_answer",
+        "unsupported_claim",
+        "contradiction",
+        "evidence_conflict"
+      ],
+      "all_ai_issue_categories": [
+        "entity_ambiguity",
+        "over_specific_answer",
+        "unsupported_claim",
+        "contradiction",
+        "evidence_conflict"
+      ],
+      "issue_category_counts": {
+        "entity_ambiguity": 5,
+        "over_specific_answer": 3,
+        "evidence_conflict": 1,
+        "unsupported_claim": 1,
+        "contradiction": 1
+      },
+      "model_issue_categories": {
+        "qwen3_6_max_preview": [
+          "entity_ambiguity",
+          "over_specific_answer"
+        ],
+        "deepseek_v4_pro": [
+          "entity_ambiguity",
+          "evidence_conflict",
+          "over_specific_answer"
+        ],
+        "kimi_k2_6": [
+          "entity_ambiguity",
+          "unsupported_claim"
+        ],
+        "qwen3_max_2026_01_23": [
+          "entity_ambiguity",
+          "over_specific_answer"
+        ],
+        "qwen3_6_plus_2026_04_02": [
+          "contradiction",
+          "entity_ambiguity"
+        ]
+      },
+      "ai_majority_label": "unfaithful",
+      "label_vote_counts": {
+        "unfaithful": 5
+      },
+      "ai_top_label_vote_fraction": "1.0"
+    },
+    "AUDIT-069": {
+      "audit_id": "AUDIT-069",
+      "suggested_issue_categories": [
+        "unsupported_claim"
+      ],
+      "all_ai_issue_categories": [
+        "unsupported_claim"
+      ],
+      "issue_category_counts": {
+        "unsupported_claim": 1
+      },
+      "model_issue_categories": {
+        "qwen3_6_max_preview": [],
+        "deepseek_v4_pro": [],
+        "kimi_k2_6": [
+          "unsupported_claim"
+        ],
+        "qwen3_max_2026_01_23": [],
+        "qwen3_6_plus_2026_04_02": []
+      },
+      "ai_majority_label": "faithful",
+      "label_vote_counts": {
+        "faithful": 4,
+        "unfaithful": 1
+      },
+      "ai_top_label_vote_fraction": "0.8"
+    },
+    "AUDIT-070": {
+      "audit_id": "AUDIT-070",
+      "suggested_issue_categories": [
+        "unsupported_claim",
+        "over_specific_answer",
+        "answer_format_issue"
+      ],
+      "all_ai_issue_categories": [
+        "unsupported_claim",
+        "over_specific_answer",
+        "answer_format_issue"
+      ],
+      "issue_category_counts": {
+        "unsupported_claim": 2,
+        "over_specific_answer": 1,
+        "answer_format_issue": 1
+      },
+      "model_issue_categories": {
+        "qwen3_6_max_preview": [],
+        "deepseek_v4_pro": [
+          "unsupported_claim",
+          "over_specific_answer"
+        ],
+        "kimi_k2_6": [
+          "answer_format_issue",
+          "unsupported_claim"
+        ],
+        "qwen3_max_2026_01_23": [],
+        "qwen3_6_plus_2026_04_02": []
+      },
+      "ai_majority_label": "faithful",
+      "label_vote_counts": {
+        "faithful": 3,
+        "unfaithful": 2
+      },
+      "ai_top_label_vote_fraction": "0.6"
+    },
+    "AUDIT-071": {
+      "audit_id": "AUDIT-071",
+      "suggested_issue_categories": [
+        "numeric_error",
+        "over_specific_answer"
+      ],
+      "all_ai_issue_categories": [
+        "numeric_error",
+        "over_specific_answer"
+      ],
+      "issue_category_counts": {
+        "numeric_error": 1,
+        "over_specific_answer": 1
+      },
+      "model_issue_categories": {
+        "qwen3_6_max_preview": [],
+        "deepseek_v4_pro": [],
+        "kimi_k2_6": [],
+        "qwen3_max_2026_01_23": [
+          "numeric_error",
+          "over_specific_answer"
+        ],
+        "qwen3_6_plus_2026_04_02": []
+      },
+      "ai_majority_label": "unfaithful",
+      "label_vote_counts": {
+        "unfaithful": 4,
+        "faithful": 1
+      },
+      "ai_top_label_vote_fraction": "0.8"
+    },
+    "AUDIT-072": {
+      "audit_id": "AUDIT-072",
+      "suggested_issue_categories": [
+        "unsupported_claim",
+        "over_specific_answer"
+      ],
+      "all_ai_issue_categories": [
+        "unsupported_claim",
+        "over_specific_answer"
+      ],
+      "issue_category_counts": {
+        "unsupported_claim": 2,
+        "over_specific_answer": 1
+      },
+      "model_issue_categories": {
+        "qwen3_6_max_preview": [
+          "unsupported_claim"
+        ],
+        "deepseek_v4_pro": [],
+        "kimi_k2_6": [
+          "unsupported_claim"
+        ],
+        "qwen3_max_2026_01_23": [
+          "over_specific_answer"
+        ],
+        "qwen3_6_plus_2026_04_02": []
+      },
+      "ai_majority_label": "unfaithful",
+      "label_vote_counts": {
+        "unfaithful": 3,
+        "faithful": 2
+      },
+      "ai_top_label_vote_fraction": "0.6"
+    },
+    "AUDIT-073": {
+      "audit_id": "AUDIT-073",
+      "suggested_issue_categories": [
+        "entity_ambiguity",
+        "temporal_conflict",
+        "over_specific_answer"
+      ],
+      "all_ai_issue_categories": [
+        "entity_ambiguity",
+        "temporal_conflict",
+        "over_specific_answer"
+      ],
+      "issue_category_counts": {
+        "entity_ambiguity": 1,
+        "over_specific_answer": 1,
+        "temporal_conflict": 1
+      },
+      "model_issue_categories": {
+        "qwen3_6_max_preview": [],
+        "deepseek_v4_pro": [
+          "entity_ambiguity",
+          "over_specific_answer"
+        ],
+        "kimi_k2_6": [],
+        "qwen3_max_2026_01_23": [
+          "temporal_conflict"
+        ],
+        "qwen3_6_plus_2026_04_02": []
+      },
+      "ai_majority_label": "faithful",
+      "label_vote_counts": {
+        "faithful": 3,
+        "unfaithful": 2
+      },
+      "ai_top_label_vote_fraction": "0.6"
+    },
+    "AUDIT-074": {
+      "audit_id": "AUDIT-074",
+      "suggested_issue_categories": [],
+      "all_ai_issue_categories": [],
+      "issue_category_counts": {},
+      "model_issue_categories": {
+        "qwen3_6_max_preview": [],
+        "deepseek_v4_pro": [],
+        "kimi_k2_6": [],
+        "qwen3_max_2026_01_23": [],
+        "qwen3_6_plus_2026_04_02": []
+      },
+      "ai_majority_label": "faithful",
+      "label_vote_counts": {
+        "faithful": 5
+      },
+      "ai_top_label_vote_fraction": "1.0"
+    },
+    "AUDIT-075": {
+      "audit_id": "AUDIT-075",
+      "suggested_issue_categories": [
+        "numeric_error",
+        "unsupported_claim"
+      ],
+      "all_ai_issue_categories": [
+        "numeric_error",
+        "unsupported_claim"
+      ],
+      "issue_category_counts": {
+        "unsupported_claim": 2,
+        "numeric_error": 5
+      },
+      "model_issue_categories": {
+        "qwen3_6_max_preview": [
+          "unsupported_claim",
+          "numeric_error"
+        ],
+        "deepseek_v4_pro": [
+          "numeric_error"
+        ],
+        "kimi_k2_6": [
+          "numeric_error",
+          "unsupported_claim"
+        ],
+        "qwen3_max_2026_01_23": [
+          "numeric_error"
+        ],
+        "qwen3_6_plus_2026_04_02": [
+          "numeric_error"
+        ]
+      },
+      "ai_majority_label": "unfaithful",
+      "label_vote_counts": {
+        "unfaithful": 5
+      },
+      "ai_top_label_vote_fraction": "1.0"
+    },
+    "AUDIT-076": {
+      "audit_id": "AUDIT-076",
+      "suggested_issue_categories": [],
+      "all_ai_issue_categories": [],
+      "issue_category_counts": {},
+      "model_issue_categories": {
+        "qwen3_6_max_preview": [],
+        "deepseek_v4_pro": [],
+        "kimi_k2_6": [],
+        "qwen3_max_2026_01_23": [],
+        "qwen3_6_plus_2026_04_02": []
+      },
+      "ai_majority_label": "faithful",
+      "label_vote_counts": {
+        "faithful": 4,
+        "unfaithful": 1
+      },
+      "ai_top_label_vote_fraction": "0.8"
+    },
+    "AUDIT-077": {
+      "audit_id": "AUDIT-077",
+      "suggested_issue_categories": [
+        "numeric_error",
+        "unsupported_claim",
+        "contradiction",
+        "over_specific_answer"
+      ],
+      "all_ai_issue_categories": [
+        "numeric_error",
+        "unsupported_claim",
+        "contradiction",
+        "over_specific_answer"
+      ],
+      "issue_category_counts": {
+        "contradiction": 2,
+        "numeric_error": 4,
+        "unsupported_claim": 3,
+        "over_specific_answer": 1
+      },
+      "model_issue_categories": {
+        "qwen3_6_max_preview": [
+          "contradiction",
+          "numeric_error"
+        ],
+        "deepseek_v4_pro": [
+          "numeric_error",
+          "unsupported_claim"
+        ],
+        "kimi_k2_6": [
+          "contradiction",
+          "numeric_error"
+        ],
+        "qwen3_max_2026_01_23": [
+          "over_specific_answer",
+          "unsupported_claim"
+        ],
+        "qwen3_6_plus_2026_04_02": [
+          "unsupported_claim",
+          "numeric_error"
+        ]
+      },
+      "ai_majority_label": "unfaithful",
+      "label_vote_counts": {
+        "unfaithful": 5
+      },
+      "ai_top_label_vote_fraction": "1.0"
+    },
+    "AUDIT-078": {
+      "audit_id": "AUDIT-078",
+      "suggested_issue_categories": [
+        "numeric_error",
+        "unsupported_claim"
+      ],
+      "all_ai_issue_categories": [
+        "numeric_error",
+        "unsupported_claim"
+      ],
+      "issue_category_counts": {
+        "numeric_error": 2,
+        "unsupported_claim": 1
+      },
+      "model_issue_categories": {
+        "qwen3_6_max_preview": [
+          "numeric_error"
+        ],
+        "deepseek_v4_pro": [],
+        "kimi_k2_6": [
+          "numeric_error",
+          "unsupported_claim"
+        ],
+        "qwen3_max_2026_01_23": [],
+        "qwen3_6_plus_2026_04_02": []
+      },
+      "ai_majority_label": "faithful",
+      "label_vote_counts": {
+        "unfaithful": 2,
+        "faithful": 3
+      },
+      "ai_top_label_vote_fraction": "0.6"
+    },
+    "AUDIT-079": {
+      "audit_id": "AUDIT-079",
+      "suggested_issue_categories": [],
+      "all_ai_issue_categories": [],
+      "issue_category_counts": {},
+      "model_issue_categories": {
+        "qwen3_6_max_preview": [],
+        "deepseek_v4_pro": [],
+        "kimi_k2_6": [],
+        "qwen3_max_2026_01_23": [],
+        "qwen3_6_plus_2026_04_02": []
+      },
+      "ai_majority_label": "faithful",
+      "label_vote_counts": {
+        "faithful": 5
+      },
+      "ai_top_label_vote_fraction": "1.0"
+    },
+    "AUDIT-080": {
+      "audit_id": "AUDIT-080",
+      "suggested_issue_categories": [
+        "contradiction"
+      ],
+      "all_ai_issue_categories": [
+        "contradiction"
+      ],
+      "issue_category_counts": {
+        "contradiction": 1
+      },
+      "model_issue_categories": {
+        "qwen3_6_max_preview": [
+          "contradiction"
+        ],
+        "deepseek_v4_pro": [],
+        "kimi_k2_6": [],
+        "qwen3_max_2026_01_23": [],
+        "qwen3_6_plus_2026_04_02": []
+      },
+      "ai_majority_label": "faithful",
+      "label_vote_counts": {
+        "unfaithful": 1,
+        "faithful": 4
+      },
+      "ai_top_label_vote_fraction": "0.8"
+    },
+    "AUDIT-081": {
+      "audit_id": "AUDIT-081",
+      "suggested_issue_categories": [
+        "numeric_error",
+        "unsupported_claim",
+        "over_specific_answer"
+      ],
+      "all_ai_issue_categories": [
+        "numeric_error",
+        "unsupported_claim",
+        "over_specific_answer"
+      ],
+      "issue_category_counts": {
+        "numeric_error": 5,
+        "unsupported_claim": 1,
+        "over_specific_answer": 1
+      },
+      "model_issue_categories": {
+        "qwen3_6_max_preview": [
+          "numeric_error"
+        ],
+        "deepseek_v4_pro": [
+          "numeric_error"
+        ],
+        "kimi_k2_6": [
+          "numeric_error",
+          "unsupported_claim"
+        ],
+        "qwen3_max_2026_01_23": [
+          "numeric_error",
+          "over_specific_answer"
+        ],
+        "qwen3_6_plus_2026_04_02": [
+          "numeric_error"
+        ]
+      },
+      "ai_majority_label": "unfaithful",
+      "label_vote_counts": {
+        "unfaithful": 5
+      },
+      "ai_top_label_vote_fraction": "1.0"
+    },
+    "AUDIT-082": {
+      "audit_id": "AUDIT-082",
+      "suggested_issue_categories": [],
+      "all_ai_issue_categories": [],
+      "issue_category_counts": {},
+      "model_issue_categories": {
+        "qwen3_6_max_preview": [],
+        "deepseek_v4_pro": [],
+        "kimi_k2_6": [],
+        "qwen3_max_2026_01_23": [],
+        "qwen3_6_plus_2026_04_02": []
+      },
+      "ai_majority_label": "faithful",
+      "label_vote_counts": {
+        "faithful": 5
+      },
+      "ai_top_label_vote_fraction": "1.0"
+    },
+    "AUDIT-083": {
+      "audit_id": "AUDIT-083",
+      "suggested_issue_categories": [
+        "unsupported_claim",
+        "over_specific_answer",
+        "contradiction"
+      ],
+      "all_ai_issue_categories": [
+        "unsupported_claim",
+        "over_specific_answer",
+        "contradiction"
+      ],
+      "issue_category_counts": {
+        "unsupported_claim": 5,
+        "contradiction": 1,
+        "over_specific_answer": 2
+      },
+      "model_issue_categories": {
+        "qwen3_6_max_preview": [
+          "unsupported_claim"
+        ],
+        "deepseek_v4_pro": [
+          "unsupported_claim",
+          "contradiction"
+        ],
+        "kimi_k2_6": [
+          "unsupported_claim",
+          "over_specific_answer"
+        ],
+        "qwen3_max_2026_01_23": [
+          "unsupported_claim",
+          "over_specific_answer"
+        ],
+        "qwen3_6_plus_2026_04_02": [
+          "unsupported_claim"
+        ]
+      },
+      "ai_majority_label": "unfaithful",
+      "label_vote_counts": {
+        "unfaithful": 5
+      },
+      "ai_top_label_vote_fraction": "1.0"
+    },
+    "AUDIT-084": {
+      "audit_id": "AUDIT-084",
+      "suggested_issue_categories": [],
+      "all_ai_issue_categories": [],
+      "issue_category_counts": {},
+      "model_issue_categories": {
+        "qwen3_6_max_preview": [],
+        "deepseek_v4_pro": [],
+        "kimi_k2_6": [],
+        "qwen3_max_2026_01_23": [],
+        "qwen3_6_plus_2026_04_02": []
+      },
+      "ai_majority_label": "faithful",
+      "label_vote_counts": {
+        "faithful": 5
+      },
+      "ai_top_label_vote_fraction": "1.0"
+    },
+    "AUDIT-085": {
+      "audit_id": "AUDIT-085",
+      "suggested_issue_categories": [
+        "contradiction",
+        "unsupported_claim",
+        "entity_ambiguity"
+      ],
+      "all_ai_issue_categories": [
+        "contradiction",
+        "unsupported_claim",
+        "entity_ambiguity"
+      ],
+      "issue_category_counts": {
+        "contradiction": 4,
+        "entity_ambiguity": 2,
+        "unsupported_claim": 2
+      },
+      "model_issue_categories": {
+        "qwen3_6_max_preview": [
+          "contradiction"
+        ],
+        "deepseek_v4_pro": [
+          "contradiction",
+          "entity_ambiguity"
+        ],
+        "kimi_k2_6": [
+          "unsupported_claim",
+          "contradiction"
+        ],
+        "qwen3_max_2026_01_23": [
+          "unsupported_claim",
+          "entity_ambiguity"
+        ],
+        "qwen3_6_plus_2026_04_02": [
+          "contradiction"
+        ]
+      },
+      "ai_majority_label": "unfaithful",
+      "label_vote_counts": {
+        "unfaithful": 5
+      },
+      "ai_top_label_vote_fraction": "1.0"
+    },
+    "AUDIT-086": {
+      "audit_id": "AUDIT-086",
+      "suggested_issue_categories": [],
+      "all_ai_issue_categories": [],
+      "issue_category_counts": {},
+      "model_issue_categories": {
+        "qwen3_6_max_preview": [],
+        "deepseek_v4_pro": [],
+        "kimi_k2_6": [],
+        "qwen3_max_2026_01_23": [],
+        "qwen3_6_plus_2026_04_02": []
+      },
+      "ai_majority_label": "faithful",
+      "label_vote_counts": {
+        "faithful": 5
+      },
+      "ai_top_label_vote_fraction": "1.0"
+    },
+    "AUDIT-087": {
+      "audit_id": "AUDIT-087",
+      "suggested_issue_categories": [
+        "entity_ambiguity",
+        "unsupported_claim",
+        "over_specific_answer",
+        "evidence_conflict"
+      ],
+      "all_ai_issue_categories": [
+        "entity_ambiguity",
+        "unsupported_claim",
+        "over_specific_answer",
+        "evidence_conflict"
+      ],
+      "issue_category_counts": {
+        "unsupported_claim": 3,
+        "entity_ambiguity": 5,
+        "evidence_conflict": 1,
+        "over_specific_answer": 2
+      },
+      "model_issue_categories": {
+        "qwen3_6_max_preview": [
+          "unsupported_claim",
+          "entity_ambiguity"
+        ],
+        "deepseek_v4_pro": [
+          "entity_ambiguity",
+          "evidence_conflict",
+          "over_specific_answer"
+        ],
+        "kimi_k2_6": [
+          "unsupported_claim",
+          "entity_ambiguity"
+        ],
+        "qwen3_max_2026_01_23": [
+          "entity_ambiguity",
+          "over_specific_answer"
+        ],
+        "qwen3_6_plus_2026_04_02": [
+          "unsupported_claim",
+          "entity_ambiguity"
+        ]
+      },
+      "ai_majority_label": "unfaithful",
+      "label_vote_counts": {
+        "unfaithful": 5
+      },
+      "ai_top_label_vote_fraction": "1.0"
+    },
+    "AUDIT-088": {
+      "audit_id": "AUDIT-088",
+      "suggested_issue_categories": [
+        "unsupported_claim",
+        "temporal_conflict",
+        "over_specific_answer"
+      ],
+      "all_ai_issue_categories": [
+        "unsupported_claim",
+        "temporal_conflict",
+        "over_specific_answer"
+      ],
+      "issue_category_counts": {
+        "over_specific_answer": 1,
+        "unsupported_claim": 2,
+        "temporal_conflict": 1
+      },
+      "model_issue_categories": {
+        "qwen3_6_max_preview": [],
+        "deepseek_v4_pro": [
+          "over_specific_answer",
+          "unsupported_claim"
+        ],
+        "kimi_k2_6": [
+          "unsupported_claim",
+          "temporal_conflict"
+        ],
+        "qwen3_max_2026_01_23": [],
+        "qwen3_6_plus_2026_04_02": []
+      },
+      "ai_majority_label": "faithful",
+      "label_vote_counts": {
+        "faithful": 3,
+        "unfaithful": 2
+      },
+      "ai_top_label_vote_fraction": "0.6"
+    },
+    "AUDIT-089": {
+      "audit_id": "AUDIT-089",
+      "suggested_issue_categories": [
+        "numeric_error",
+        "unsupported_claim",
+        "over_specific_answer"
+      ],
+      "all_ai_issue_categories": [
+        "numeric_error",
+        "unsupported_claim",
+        "over_specific_answer"
+      ],
+      "issue_category_counts": {
+        "numeric_error": 5,
+        "unsupported_claim": 3,
+        "over_specific_answer": 2
+      },
+      "model_issue_categories": {
+        "qwen3_6_max_preview": [
+          "numeric_error",
+          "unsupported_claim"
+        ],
+        "deepseek_v4_pro": [
+          "numeric_error",
+          "over_specific_answer"
+        ],
+        "kimi_k2_6": [
+          "unsupported_claim",
+          "numeric_error"
+        ],
+        "qwen3_max_2026_01_23": [
+          "numeric_error",
+          "over_specific_answer"
+        ],
+        "qwen3_6_plus_2026_04_02": [
+          "unsupported_claim",
+          "numeric_error"
+        ]
+      },
+      "ai_majority_label": "unfaithful",
+      "label_vote_counts": {
+        "unfaithful": 5
+      },
+      "ai_top_label_vote_fraction": "1.0"
+    },
+    "AUDIT-090": {
+      "audit_id": "AUDIT-090",
+      "suggested_issue_categories": [
+        "unsupported_claim"
+      ],
+      "all_ai_issue_categories": [
+        "unsupported_claim"
+      ],
+      "issue_category_counts": {
+        "unsupported_claim": 4
+      },
+      "model_issue_categories": {
+        "qwen3_6_max_preview": [
+          "unsupported_claim"
+        ],
+        "deepseek_v4_pro": [
+          "unsupported_claim"
+        ],
+        "kimi_k2_6": [],
+        "qwen3_max_2026_01_23": [
+          "unsupported_claim"
+        ],
+        "qwen3_6_plus_2026_04_02": [
+          "unsupported_claim"
+        ]
+      },
+      "ai_majority_label": "unfaithful",
+      "label_vote_counts": {
+        "unfaithful": 4,
+        "faithful": 1
+      },
+      "ai_top_label_vote_fraction": "0.8"
+    },
+    "AUDIT-091": {
+      "audit_id": "AUDIT-091",
+      "suggested_issue_categories": [
+        "entity_ambiguity",
+        "over_specific_answer",
+        "unsupported_claim"
+      ],
+      "all_ai_issue_categories": [
+        "entity_ambiguity",
+        "over_specific_answer",
+        "unsupported_claim"
+      ],
+      "issue_category_counts": {
+        "entity_ambiguity": 5,
+        "over_specific_answer": 3,
+        "unsupported_claim": 1
+      },
+      "model_issue_categories": {
+        "qwen3_6_max_preview": [
+          "entity_ambiguity",
+          "over_specific_answer"
+        ],
+        "deepseek_v4_pro": [
+          "entity_ambiguity",
+          "over_specific_answer"
+        ],
+        "kimi_k2_6": [
+          "entity_ambiguity"
+        ],
+        "qwen3_max_2026_01_23": [
+          "entity_ambiguity",
+          "over_specific_answer"
+        ],
+        "qwen3_6_plus_2026_04_02": [
+          "entity_ambiguity",
+          "unsupported_claim"
+        ]
+      },
+      "ai_majority_label": "unfaithful",
+      "label_vote_counts": {
+        "unfaithful": 5
+      },
+      "ai_top_label_vote_fraction": "1.0"
+    },
+    "AUDIT-092": {
+      "audit_id": "AUDIT-092",
+      "suggested_issue_categories": [
+        "unsupported_claim",
+        "over_specific_answer",
+        "evidence_conflict",
+        "entity_ambiguity"
+      ],
+      "all_ai_issue_categories": [
+        "unsupported_claim",
+        "over_specific_answer",
+        "evidence_conflict",
+        "entity_ambiguity"
+      ],
+      "issue_category_counts": {
+        "unsupported_claim": 5,
+        "over_specific_answer": 2,
+        "evidence_conflict": 1,
+        "entity_ambiguity": 1
+      },
+      "model_issue_categories": {
+        "qwen3_6_max_preview": [
+          "unsupported_claim",
+          "over_specific_answer"
+        ],
+        "deepseek_v4_pro": [
+          "unsupported_claim",
+          "evidence_conflict"
+        ],
+        "kimi_k2_6": [
+          "unsupported_claim",
+          "entity_ambiguity"
+        ],
+        "qwen3_max_2026_01_23": [
+          "unsupported_claim",
+          "over_specific_answer"
+        ],
+        "qwen3_6_plus_2026_04_02": [
+          "unsupported_claim"
+        ]
+      },
+      "ai_majority_label": "unfaithful",
+      "label_vote_counts": {
+        "unfaithful": 5
+      },
+      "ai_top_label_vote_fraction": "1.0"
+    },
+    "AUDIT-093": {
+      "audit_id": "AUDIT-093",
+      "suggested_issue_categories": [
+        "unsupported_claim",
+        "over_specific_answer"
+      ],
+      "all_ai_issue_categories": [
+        "unsupported_claim",
+        "over_specific_answer"
+      ],
+      "issue_category_counts": {
+        "unsupported_claim": 5,
+        "over_specific_answer": 2
+      },
+      "model_issue_categories": {
+        "qwen3_6_max_preview": [
+          "unsupported_claim"
+        ],
+        "deepseek_v4_pro": [
+          "unsupported_claim",
+          "over_specific_answer"
+        ],
+        "kimi_k2_6": [
+          "unsupported_claim"
+        ],
+        "qwen3_max_2026_01_23": [
+          "unsupported_claim",
+          "over_specific_answer"
+        ],
+        "qwen3_6_plus_2026_04_02": [
+          "unsupported_claim"
+        ]
+      },
+      "ai_majority_label": "unfaithful",
+      "label_vote_counts": {
+        "unfaithful": 5
+      },
+      "ai_top_label_vote_fraction": "1.0"
+    },
+    "AUDIT-094": {
+      "audit_id": "AUDIT-094",
+      "suggested_issue_categories": [
+        "unsupported_claim",
+        "entity_ambiguity",
+        "contradiction"
+      ],
+      "all_ai_issue_categories": [
+        "unsupported_claim",
+        "entity_ambiguity",
+        "contradiction"
+      ],
+      "issue_category_counts": {
+        "unsupported_claim": 5,
+        "entity_ambiguity": 4,
+        "contradiction": 1
+      },
+      "model_issue_categories": {
+        "qwen3_6_max_preview": [
+          "unsupported_claim",
+          "entity_ambiguity"
+        ],
+        "deepseek_v4_pro": [
+          "entity_ambiguity",
+          "unsupported_claim"
+        ],
+        "kimi_k2_6": [
+          "contradiction",
+          "unsupported_claim"
+        ],
+        "qwen3_max_2026_01_23": [
+          "entity_ambiguity",
+          "unsupported_claim"
+        ],
+        "qwen3_6_plus_2026_04_02": [
+          "unsupported_claim",
+          "entity_ambiguity"
+        ]
+      },
+      "ai_majority_label": "unfaithful",
+      "label_vote_counts": {
+        "unfaithful": 5
+      },
+      "ai_top_label_vote_fraction": "1.0"
+    },
+    "AUDIT-095": {
+      "audit_id": "AUDIT-095",
+      "suggested_issue_categories": [
+        "unsupported_claim",
+        "over_specific_answer"
+      ],
+      "all_ai_issue_categories": [
+        "unsupported_claim",
+        "over_specific_answer"
+      ],
+      "issue_category_counts": {
+        "unsupported_claim": 2,
+        "over_specific_answer": 1
+      },
+      "model_issue_categories": {
+        "qwen3_6_max_preview": [],
+        "deepseek_v4_pro": [
+          "unsupported_claim"
+        ],
+        "kimi_k2_6": [
+          "unsupported_claim",
+          "over_specific_answer"
+        ],
+        "qwen3_max_2026_01_23": [],
+        "qwen3_6_plus_2026_04_02": []
+      },
+      "ai_majority_label": "faithful",
+      "label_vote_counts": {
+        "faithful": 3,
+        "unfaithful": 2
+      },
+      "ai_top_label_vote_fraction": "0.6"
+    },
+    "AUDIT-096": {
+      "audit_id": "AUDIT-096",
+      "suggested_issue_categories": [
+        "unsupported_claim",
+        "numeric_error",
+        "over_specific_answer"
+      ],
+      "all_ai_issue_categories": [
+        "unsupported_claim",
+        "numeric_error",
+        "over_specific_answer"
+      ],
+      "issue_category_counts": {
+        "unsupported_claim": 5,
+        "numeric_error": 2,
+        "over_specific_answer": 1
+      },
+      "model_issue_categories": {
+        "qwen3_6_max_preview": [
+          "unsupported_claim"
+        ],
+        "deepseek_v4_pro": [
+          "unsupported_claim",
+          "numeric_error"
+        ],
+        "kimi_k2_6": [
+          "unsupported_claim",
+          "numeric_error"
+        ],
+        "qwen3_max_2026_01_23": [
+          "over_specific_answer",
+          "unsupported_claim"
+        ],
+        "qwen3_6_plus_2026_04_02": [
+          "unsupported_claim"
+        ]
+      },
+      "ai_majority_label": "unfaithful",
+      "label_vote_counts": {
+        "unfaithful": 5
+      },
+      "ai_top_label_vote_fraction": "1.0"
+    },
+    "AUDIT-097": {
+      "audit_id": "AUDIT-097",
+      "suggested_issue_categories": [
+        "evidence_conflict",
+        "entity_ambiguity",
+        "unsupported_claim"
+      ],
+      "all_ai_issue_categories": [
+        "evidence_conflict",
+        "entity_ambiguity",
+        "unsupported_claim"
+      ],
+      "issue_category_counts": {
+        "evidence_conflict": 5,
+        "unsupported_claim": 1,
+        "entity_ambiguity": 4
+      },
+      "model_issue_categories": {
+        "qwen3_6_max_preview": [
+          "evidence_conflict",
+          "unsupported_claim"
+        ],
+        "deepseek_v4_pro": [
+          "evidence_conflict",
+          "entity_ambiguity"
+        ],
+        "kimi_k2_6": [
+          "evidence_conflict",
+          "entity_ambiguity"
+        ],
+        "qwen3_max_2026_01_23": [
+          "evidence_conflict",
+          "entity_ambiguity"
+        ],
+        "qwen3_6_plus_2026_04_02": [
+          "evidence_conflict",
+          "entity_ambiguity"
+        ]
+      },
+      "ai_majority_label": "unfaithful",
+      "label_vote_counts": {
+        "unfaithful": 5
+      },
+      "ai_top_label_vote_fraction": "1.0"
+    },
+    "AUDIT-098": {
+      "audit_id": "AUDIT-098",
+      "suggested_issue_categories": [
+        "unsupported_claim",
+        "over_specific_answer",
+        "contradiction"
+      ],
+      "all_ai_issue_categories": [
+        "unsupported_claim",
+        "over_specific_answer",
+        "contradiction"
+      ],
+      "issue_category_counts": {
+        "unsupported_claim": 5,
+        "over_specific_answer": 3,
+        "contradiction": 1
+      },
+      "model_issue_categories": {
+        "qwen3_6_max_preview": [
+          "unsupported_claim"
+        ],
+        "deepseek_v4_pro": [
+          "unsupported_claim",
+          "over_specific_answer"
+        ],
+        "kimi_k2_6": [
+          "unsupported_claim",
+          "over_specific_answer"
+        ],
+        "qwen3_max_2026_01_23": [
+          "unsupported_claim",
+          "over_specific_answer"
+        ],
+        "qwen3_6_plus_2026_04_02": [
+          "unsupported_claim",
+          "contradiction"
+        ]
+      },
+      "ai_majority_label": "unfaithful",
+      "label_vote_counts": {
+        "unfaithful": 5
+      },
+      "ai_top_label_vote_fraction": "1.0"
+    },
+    "AUDIT-099": {
+      "audit_id": "AUDIT-099",
+      "suggested_issue_categories": [
+        "unsupported_claim",
+        "contradiction"
+      ],
+      "all_ai_issue_categories": [
+        "unsupported_claim",
+        "contradiction"
+      ],
+      "issue_category_counts": {
+        "contradiction": 5,
+        "unsupported_claim": 5
+      },
+      "model_issue_categories": {
+        "qwen3_6_max_preview": [
+          "contradiction",
+          "unsupported_claim"
+        ],
+        "deepseek_v4_pro": [
+          "contradiction",
+          "unsupported_claim"
+        ],
+        "kimi_k2_6": [
+          "contradiction",
+          "unsupported_claim"
+        ],
+        "qwen3_max_2026_01_23": [
+          "contradiction",
+          "unsupported_claim"
+        ],
+        "qwen3_6_plus_2026_04_02": [
+          "contradiction",
+          "unsupported_claim"
+        ]
+      },
+      "ai_majority_label": "unfaithful",
+      "label_vote_counts": {
+        "unfaithful": 5
+      },
+      "ai_top_label_vote_fraction": "1.0"
+    },
+    "AUDIT-100": {
+      "audit_id": "AUDIT-100",
+      "suggested_issue_categories": [
+        "evidence_conflict",
+        "entity_ambiguity",
+        "over_specific_answer",
+        "numeric_error"
+      ],
+      "all_ai_issue_categories": [
+        "evidence_conflict",
+        "entity_ambiguity",
+        "over_specific_answer",
+        "numeric_error"
+      ],
+      "issue_category_counts": {
+        "evidence_conflict": 5,
+        "entity_ambiguity": 3,
+        "over_specific_answer": 3,
+        "numeric_error": 1
+      },
+      "model_issue_categories": {
+        "qwen3_6_max_preview": [
+          "evidence_conflict",
+          "entity_ambiguity"
+        ],
+        "deepseek_v4_pro": [
+          "entity_ambiguity",
+          "evidence_conflict",
+          "over_specific_answer"
+        ],
+        "kimi_k2_6": [
+          "evidence_conflict",
+          "entity_ambiguity",
+          "over_specific_answer"
+        ],
+        "qwen3_max_2026_01_23": [
+          "numeric_error",
+          "evidence_conflict"
+        ],
+        "qwen3_6_plus_2026_04_02": [
+          "evidence_conflict",
+          "over_specific_answer"
+        ]
+      },
+      "ai_majority_label": "unfaithful",
+      "label_vote_counts": {
+        "unfaithful": 5
+      },
+      "ai_top_label_vote_fraction": "1.0"
+    }
+  }
+}

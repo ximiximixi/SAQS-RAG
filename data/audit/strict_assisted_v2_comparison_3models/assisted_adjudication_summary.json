@@ -1,0 +1,156 @@
+{
+  "models": [
+    "deepseek-v4-pro",
+    "qwen3.5-plus-2026-04-20",
+    "qwen3.6-max-preview"
+  ],
+  "n_common_items": 100,
+  "label_summary": {
+    "deepseek-v4-pro": {
+      "unfaithful": 89,
+      "faithful": 11
+    },
+    "qwen3.5-plus-2026-04-20": {
+      "unfaithful": 84,
+      "faithful": 16
+    },
+    "qwen3.6-max-preview": {
+      "unfaithful": 85,
+      "faithful": 15
+    }
+  },
+  "issue_summary": {
+    "deepseek-v4-pro": [
+      [
+        "over_specific_answer",
+        47
+      ],
+      [
+        "unsupported_claim",
+        43
+      ],
+      [
+        "entity_ambiguity",
+        42
+      ],
+      [
+        "evidence_conflict",
+        23
+      ],
+      [
+        "numeric_error",
+        13
+      ],
+      [
+        "contradiction",
+        5
+      ],
+      [
+        "temporal_conflict",
+        2
+      ],
+      [
+        "answer_format_issue",
+        1
+      ]
+    ],
+    "qwen3.5-plus-2026-04-20": [
+      [
+        "unsupported_claim",
+        43
+      ],
+      [
+        "entity_ambiguity",
+        38
+      ],
+      [
+        "evidence_conflict",
+        22
+      ],
+      [
+        "over_specific_answer",
+        20
+      ],
+      [
+        "contradiction",
+        8
+      ],
+      [
+        "numeric_error",
+        7
+      ],
+      [
+        "answer_format_issue",
+        1
+      ]
+    ],
+    "qwen3.6-max-preview": [
+      [
+        "unsupported_claim",
+        43
+      ],
+      [
+        "entity_ambiguity",
+        36
+      ],
+      [
+        "evidence_conflict",
+        21
+      ],
+      [
+        "over_specific_answer",
+        12
+      ],
+      [
+        "contradiction",
+        7
+      ],
+      [
+        "numeric_error",
+        7
+      ],
+      [
+        "temporal_conflict",
+        1
+      ],
+      [
+        "answer_format_issue",
+        1
+      ]
+    ]
+  },
+  "pairwise": [
+    {
+      "left": "deepseek-v4-pro",
+      "right": "qwen3.5-plus-2026-04-20",
+      "n": 100,
+      "agreement": 95,
+      "agreement_rate": 0.95,
+      "cohen_kappa": 0.787052810902896
+    },
+    {
+      "left": "deepseek-v4-pro",
+      "right": "qwen3.6-max-preview",
+      "n": 100,
+      "agreement": 96,
+      "agreement_rate": 0.96,
+      "cohen_kappa": 0.8237885462555066
+    },
+    {
+      "left": "qwen3.5-plus-2026-04-20",
+      "right": "qwen3.6-max-preview",
+      "n": 100,
+      "agreement": 99,
+      "agreement_rate": 0.99,
+      "cohen_kappa": 0.9618320610687022
+    }
+  ],
+  "unanimous": 95,
+  "unanimous_rate": 0.95,
+  "majority_label_counts": {
+    "unfaithful": 85,
+    "faithful": 15
+  },
+  "changed_from_previous_5model_majority": 9,
+  "changed_from_previous_5model_majority_rate": 0.09
+}

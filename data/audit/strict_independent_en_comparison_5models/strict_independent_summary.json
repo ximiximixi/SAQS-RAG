@@ -1,0 +1,359 @@
+{
+  "models": [
+    "qwen3.6-max-preview",
+    "deepseek-v4-pro",
+    "kimi-k2.6",
+    "qwen3-max-2026-01-23",
+    "qwen3.6-plus-2026-04-02"
+  ],
+  "n_common_items": 100,
+  "label_summary": {
+    "qwen3.6-max-preview": {
+      "unfaithful": 79,
+      "faithful": 21
+    },
+    "deepseek-v4-pro": {
+      "unfaithful": 81,
+      "faithful": 19
+    },
+    "kimi-k2.6": {
+      "unfaithful": 83,
+      "faithful": 17
+    },
+    "qwen3-max-2026-01-23": {
+      "unfaithful": 74,
+      "faithful": 26
+    },
+    "qwen3.6-plus-2026-04-02": {
+      "unfaithful": 77,
+      "faithful": 23
+    }
+  },
+  "issue_summary": {
+    "qwen3.6-max-preview": [
+      [
+        "unsupported_claim",
+        45
+      ],
+      [
+        "entity_ambiguity",
+        29
+      ],
+      [
+        "evidence_conflict",
+        16
+      ],
+      [
+        "over_specific_answer",
+        14
+      ],
+      [
+        "contradiction",
+        8
+      ],
+      [
+        "numeric_error",
+        6
+      ]
+    ],
+    "deepseek-v4-pro": [
+      [
+        "over_specific_answer",
+        46
+      ],
+      [
+        "entity_ambiguity",
+        45
+      ],
+      [
+        "unsupported_claim",
+        39
+      ],
+      [
+        "evidence_conflict",
+        32
+      ],
+      [
+        "numeric_error",
+        8
+      ],
+      [
+        "contradiction",
+        3
+      ],
+      [
+        "insufficient_evidence",
+        1
+      ],
+      [
+        "temporal_conflict",
+        1
+      ]
+    ],
+    "kimi-k2.6": [
+      [
+        "unsupported_claim",
+        56
+      ],
+      [
+        "over_specific_answer",
+        43
+      ],
+      [
+        "entity_ambiguity",
+        35
+      ],
+      [
+        "evidence_conflict",
+        17
+      ],
+      [
+        "numeric_error",
+        6
+      ],
+      [
+        "contradiction",
+        5
+      ],
+      [
+        "answer_format_issue",
+        1
+      ]
+    ],
+    "qwen3-max-2026-01-23": [
+      [
+        "over_specific_answer",
+        45
+      ],
+      [
+        "unsupported_claim",
+        33
+      ],
+      [
+        "entity_ambiguity",
+        26
+      ],
+      [
+        "evidence_conflict",
+        17
+      ],
+      [
+        "numeric_error",
+        11
+      ],
+      [
+        "temporal_conflict",
+        2
+      ],
+      [
+        "contradiction",
+        2
+      ]
+    ],
+    "qwen3.6-plus-2026-04-02": [
+      [
+        "unsupported_claim",
+        49
+      ],
+      [
+        "entity_ambiguity",
+        27
+      ],
+      [
+        "evidence_conflict",
+        13
+      ],
+      [
+        "contradiction",
+        11
+      ],
+      [
+        "numeric_error",
+        7
+      ],
+      [
+        "over_specific_answer",
+        3
+      ],
+      [
+        "temporal_conflict",
+        1
+      ]
+    ]
+  },
+  "pairwise": [
+    {
+      "left": "qwen3.6-max-preview",
+      "right": "deepseek-v4-pro",
+      "n": 100,
+      "agreement": 94,
+      "agreement_rate": 0.94,
+      "cohen_kappa": 0.8126171143035601
+    },
+    {
+      "left": "qwen3.6-max-preview",
+      "right": "kimi-k2.6",
+      "n": 100,
+      "agreement": 94,
+      "agreement_rate": 0.94,
+      "cohen_kappa": 0.8055735580038884
+    },
+    {
+      "left": "qwen3.6-max-preview",
+      "right": "qwen3-max-2026-01-23",
+      "n": 100,
+      "agreement": 93,
+      "agreement_rate": 0.93,
+      "cohen_kappa": 0.8059866962305988
+    },
+    {
+      "left": "qwen3.6-max-preview",
+      "right": "qwen3.6-plus-2026-04-02",
+      "n": 100,
+      "agreement": 94,
+      "agreement_rate": 0.94,
+      "cohen_kappa": 0.8252766453115898
+    },
+    {
+      "left": "deepseek-v4-pro",
+      "right": "kimi-k2.6",
+      "n": 100,
+      "agreement": 96,
+      "agreement_rate": 0.96,
+      "cohen_kappa": 0.8645903859174
+    },
+    {
+      "left": "deepseek-v4-pro",
+      "right": "qwen3-max-2026-01-23",
+      "n": 100,
+      "agreement": 93,
+      "agreement_rate": 0.93,
+      "cohen_kappa": 0.8006833712984056
+    },
+    {
+      "left": "deepseek-v4-pro",
+      "right": "qwen3.6-plus-2026-04-02",
+      "n": 100,
+      "agreement": 90,
+      "agreement_rate": 0.9,
+      "cohen_kappa": 0.699338544798557
+    },
+    {
+      "left": "kimi-k2.6",
+      "right": "qwen3-max-2026-01-23",
+      "n": 100,
+      "agreement": 91,
+      "agreement_rate": 0.91,
+      "cohen_kappa": 0.7365339578454334
+    },
+    {
+      "left": "kimi-k2.6",
+      "right": "qwen3.6-plus-2026-04-02",
+      "n": 100,
+      "agreement": 92,
+      "agreement_rate": 0.92,
+      "cohen_kappa": 0.7513983840894967
+    },
+    {
+      "left": "qwen3-max-2026-01-23",
+      "right": "qwen3.6-plus-2026-04-02",
+      "n": 100,
+      "agreement": 91,
+      "agreement_rate": 0.91,
+      "cohen_kappa": 0.7570194384449246
+    }
+  ],
+  "unanimous": 86,
+  "unanimous_rate": 0.86,
+  "strict_majority_label_counts": {
+    "unfaithful": 80,
+    "faithful": 20
+  },
+  "changed_from_old_5model": 10,
+  "changed_from_old_5model_rate": 0.1,
+  "changed_from_assisted_3model": 3,
+  "changed_from_assisted_3model_rate": 0.03,
+  "by_dataset": {
+    "ragbench": {
+      "n": 46,
+      "strict_majority_counts": {
+        "unfaithful": 29,
+        "faithful": 17
+      },
+      "unanimous_rate": 0.8695652173913043,
+      "changed_from_old_5model_rate": 0.043478260869565216
+    },
+    "ragtruth": {
+      "n": 16,
+      "strict_majority_counts": {
+        "unfaithful": 14,
+        "faithful": 2
+      },
+      "unanimous_rate": 0.625,
+      "changed_from_old_5model_rate": 0.0625
+    },
+    "ramdocs": {
+      "n": 38,
+      "strict_majority_counts": {
+        "unfaithful": 37,
+        "faithful": 1
+      },
+      "unanimous_rate": 0.9473684210526315,
+      "changed_from_old_5model_rate": 0.18421052631578946
+    }
+  },
+  "by_primary_stratum": {
+    "coverage_fill": {
+      "n": 12,
+      "strict_majority_counts": {
+        "unfaithful": 11,
+        "faithful": 1
+      },
+      "unanimous_rate": 0.8333333333333334,
+      "changed_from_old_5model_rate": 0.0
+    },
+    "low_risk_control": {
+      "n": 20,
+      "strict_majority_counts": {
+        "faithful": 14,
+        "unfaithful": 6
+      },
+      "unanimous_rate": 0.85,
+      "changed_from_old_5model_rate": 0.05
+    },
+    "model_majority_disagreement": {
+      "n": 13,
+      "strict_majority_counts": {
+        "unfaithful": 13
+      },
+      "unanimous_rate": 0.7692307692307693,
+      "changed_from_old_5model_rate": 0.07692307692307693
+    },
+    "ramdocs_instability": {
+      "n": 8,
+      "strict_majority_counts": {
+        "unfaithful": 8
+      },
+      "unanimous_rate": 0.875,
+      "changed_from_old_5model_rate": 0.25
+    },
+    "stable_shared_error": {
+      "n": 22,
+      "strict_majority_counts": {
+        "unfaithful": 19,
+        "faithful": 3
+      },
+      "unanimous_rate": 0.9090909090909091,
+      "changed_from_old_5model_rate": 0.2727272727272727
+    },
+    "top_multi_risk": {
+      "n": 25,
+      "strict_majority_counts": {
+        "faithful": 2,
+        "unfaithful": 23
+      },
+      "unanimous_rate": 0.88,
+      "changed_from_old_5model_rate": 0.0
+    }
+  }
+}

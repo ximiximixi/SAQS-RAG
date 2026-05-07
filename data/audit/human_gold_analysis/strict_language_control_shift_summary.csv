@@ -1,0 +1,7 @@
+﻿changed_away_from_human,changed_n,changed_other,changed_rate,changed_toward_human,condition_en,condition_zh,en_accuracy,en_distribution,n,zh_accuracy,zh_distribution
+1,9,0,0.09,8,strict_independent_en_qwen3.6-max-preview,strict_independent_qwen3.6-max-preview,0.95,"{'unfaithful': 79, 'faithful': 21}",100,0.88,"{'unfaithful': 82, 'faithful': 18}"
+1,6,0,0.06,5,strict_independent_en_deepseek-v4-pro,strict_independent_deepseek-v4-pro,0.93,"{'unfaithful': 81, 'faithful': 19}",100,0.89,"{'unfaithful': 81, 'faithful': 19}"
+2,10,0,0.1,8,strict_independent_en_kimi-k2.6,strict_independent_kimi-k2.6,0.93,"{'unfaithful': 83, 'faithful': 17}",100,0.87,"{'unfaithful': 89, 'faithful': 11}"
+2,10,0,0.1,8,strict_independent_en_qwen3-max-2026-01-23,strict_independent_qwen3-max-2026-01-23,0.92,"{'unfaithful': 74, 'faithful': 26}",100,0.86,"{'unfaithful': 76, 'faithful': 24}"
+2,6,0,0.06,4,strict_independent_en_qwen3.6-plus-2026-04-02,strict_independent_qwen3.6-plus-2026-04-02,0.93,"{'unfaithful': 77, 'faithful': 23}",100,0.91,"{'unfaithful': 77, 'faithful': 23}"
+1,8,0,0.08,7,strict_independent_en_5model_majority,strict_independent_5model_majority,0.96,"{'unfaithful': 80, 'faithful': 20}",100,0.9,"{'unfaithful': 80, 'faithful': 20}"

@@ -1,0 +1,16 @@
+{
+  "n_item_rows": 100,
+  "n_verdict_rows": 1600,
+  "n_result_rows": 147,
+  "n_prediction_rows": 99269,
+  "targets": {
+    "target_human_unfaithful": 78,
+    "target_benchmark_mismatch": 40,
+    "target_any_main_llm_wrong": 27,
+    "target_old_or_strict_wrong": 11,
+    "target_strict_en_majority_wrong": 4,
+    "target_verdict_unreliable_strict": 197,
+    "target_verdict_unreliable_covered": 148,
+    "target_verdict_high_confidence_wrong": 111
+  }
+}

@@ -1,0 +1,17 @@
+[
+  {
+    "prompt_id": "strict_faithfulness_v2",
+    "system": "You are a strict RAG faithfulness evaluator. Use only the provided evidence. Return valid JSON only.",
+    "user_template": "Decide whether the answer is faithful to the evidence.\n\nLabels:\n- faithful: every important answer claim is directly supported by the evidence.\n- unfaithful: the answer contradicts evidence, adds unsupported facts, or selects an unsupported side.\n- insufficient: the evidence is too incomplete to judge support or contradiction.\n\nEvidence order must not affect the decision.\n\nQuestion:\n{question}\n\nEvidence:\n{evidence}\n\nAnswer:\n{answer}\n\nReturn exactly one minified JSON object with keys verdict, confidence, reason. verdict must be faithful, unfaithful, or insufficient. confidence must be a number from 0 to 1. reason must be at most 25 words."
+  },
+  {
+    "prompt_id": "conflict_aware_v2",
+    "system": "You are a conflict-aware RAG evaluator. Use only the provided evidence. Return valid JSON only.",
+    "user_template": "Evaluate whether the answer is faithful under possible evidence conflict.\n\nLabels:\n- faithful: the answer is supported and handles visible conflict appropriately.\n- unfaithful: the answer contradicts evidence, ignores a relevant conflict while presenting one side as certain, or adds unsupported claims.\n- insufficient: the evidence is too incomplete to determine support or contradiction.\n\nQuestion:\n{question}\n\nEvidence:\n{evidence}\n\nAnswer:\n{answer}\n\nReturn exactly one minified JSON object with keys verdict, confidence, reason. verdict must be faithful, unfaithful, or insufficient. confidence must be a number from 0 to 1. reason must be at most 25 words."
+  },
+  {
+    "prompt_id": "minimal_binary_v2",
+    "system": "You judge whether an answer is supported by evidence. Use only the evidence. Return valid JSON only.",
+    "user_template": "Question:\n{question}\n\nEvidence:\n{evidence}\n\nAnswer:\n{answer}\n\nIs the answer supported by the evidence? Use faithful if supported, unfaithful if unsupported or contradicted, insufficient if evidence is inadequate.\n\nReturn exactly one minified JSON object with keys verdict, confidence, reason. verdict must be faithful, unfaithful, or insufficient. confidence must be a number from 0 to 1. reason must be at most 25 words."
+  }
+]

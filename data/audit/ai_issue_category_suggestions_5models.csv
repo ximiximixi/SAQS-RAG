@@ -1,0 +1,101 @@
+audit_id,suggested_issue_categories,all_ai_issue_categories,issue_category_counts,ai_majority_label,ai_label_vote_counts,ai_top_label_vote_fraction
+AUDIT-001,entity_ambiguity|unsupported_claim,entity_ambiguity|unsupported_claim,"{""entity_ambiguity"": 4, ""unsupported_claim"": 1}",unfaithful,"{""insufficient"": 1, ""unfaithful"": 3, ""faithful"": 1}",0.6
+AUDIT-002,unsupported_claim|evidence_conflict|contradiction,unsupported_claim|evidence_conflict|contradiction,"{""unsupported_claim"": 3, ""evidence_conflict"": 2, ""contradiction"": 1}",unfaithful,"{""unfaithful"": 3, ""faithful"": 2}",0.6
+AUDIT-003,entity_ambiguity,entity_ambiguity,"{""entity_ambiguity"": 2}",faithful,"{""insufficient"": 2, ""faithful"": 3}",0.6
+AUDIT-004,unsupported_claim|evidence_conflict|over_specific_answer,unsupported_claim|evidence_conflict|over_specific_answer,"{""unsupported_claim"": 5, ""evidence_conflict"": 2, ""over_specific_answer"": 1}",unfaithful,"{""unfaithful"": 5}",1.0
+AUDIT-005,contradiction|evidence_conflict|entity_ambiguity,contradiction|evidence_conflict|entity_ambiguity,"{""contradiction"": 5, ""evidence_conflict"": 3, ""entity_ambiguity"": 1}",unfaithful,"{""unfaithful"": 5}",1.0
+AUDIT-006,unsupported_claim|contradiction|numeric_error,unsupported_claim|contradiction|numeric_error,"{""contradiction"": 2, ""unsupported_claim"": 3, ""numeric_error"": 2}",unfaithful,"{""unfaithful"": 5}",1.0
+AUDIT-007,unsupported_claim|contradiction|entity_ambiguity,unsupported_claim|contradiction|entity_ambiguity,"{""unsupported_claim"": 3, ""entity_ambiguity"": 1, ""contradiction"": 1}",unfaithful,"{""unfaithful"": 4, ""faithful"": 1}",0.8
+AUDIT-008,contradiction|numeric_error|unsupported_claim,contradiction|numeric_error|unsupported_claim,"{""contradiction"": 3, ""numeric_error"": 2, ""unsupported_claim"": 1}",unfaithful,"{""unfaithful"": 5}",1.0
+AUDIT-009,unsupported_claim|numeric_error,unsupported_claim|numeric_error,"{""unsupported_claim"": 3, ""numeric_error"": 1}",unfaithful,"{""faithful"": 2, ""unfaithful"": 3}",0.6
+AUDIT-010,unsupported_claim,unsupported_claim,"{""unsupported_claim"": 5}",unfaithful,"{""unfaithful"": 5}",1.0
+AUDIT-011,unsupported_claim|entity_ambiguity|evidence_conflict,unsupported_claim|entity_ambiguity|evidence_conflict,"{""unsupported_claim"": 5, ""evidence_conflict"": 1, ""entity_ambiguity"": 2}",unfaithful,"{""unfaithful"": 5}",1.0
+AUDIT-012,unsupported_claim|contradiction,unsupported_claim|contradiction,"{""unsupported_claim"": 4, ""contradiction"": 1}",unfaithful,"{""unfaithful"": 4, ""faithful"": 1}",0.8
+AUDIT-013,unsupported_claim|entity_ambiguity|contradiction,unsupported_claim|entity_ambiguity|contradiction,"{""unsupported_claim"": 4, ""entity_ambiguity"": 2, ""contradiction"": 1}",unfaithful,"{""unfaithful"": 4, ""faithful"": 1}",0.8
+AUDIT-014,unsupported_claim|insufficient_evidence|over_specific_answer,unsupported_claim|insufficient_evidence|over_specific_answer,"{""unsupported_claim"": 2, ""insufficient_evidence"": 2, ""over_specific_answer"": 1}",tie,"{""unfaithful"": 2, ""insufficient"": 2, ""faithful"": 1}",0.4
+AUDIT-015,unsupported_claim|over_specific_answer,unsupported_claim|over_specific_answer,"{""unsupported_claim"": 3, ""over_specific_answer"": 1}",unfaithful,"{""unfaithful"": 3, ""faithful"": 2}",0.6
+AUDIT-016,evidence_conflict|unsupported_claim|contradiction|insufficient_evidence|numeric_error,evidence_conflict|unsupported_claim|contradiction|insufficient_evidence|numeric_error,"{""evidence_conflict"": 4, ""insufficient_evidence"": 1, ""unsupported_claim"": 1, ""contradiction"": 1, ""numeric_error"": 1}",unfaithful,"{""unfaithful"": 3, ""insufficient"": 2}",0.6
+AUDIT-017,entity_ambiguity|contradiction|evidence_conflict|insufficient_evidence,entity_ambiguity|contradiction|evidence_conflict|insufficient_evidence,"{""contradiction"": 3, ""entity_ambiguity"": 5, ""evidence_conflict"": 1, ""insufficient_evidence"": 1}",unfaithful,"{""unfaithful"": 4, ""insufficient"": 1}",0.8
+AUDIT-018,entity_ambiguity|unsupported_claim|insufficient_evidence|over_specific_answer,entity_ambiguity|unsupported_claim|insufficient_evidence|over_specific_answer,"{""insufficient_evidence"": 2, ""over_specific_answer"": 1, ""entity_ambiguity"": 3, ""unsupported_claim"": 2}",unfaithful,"{""insufficient"": 2, ""unfaithful"": 3}",0.6
+AUDIT-019,entity_ambiguity|unsupported_claim,entity_ambiguity|unsupported_claim,"{""entity_ambiguity"": 2, ""unsupported_claim"": 1}",faithful,"{""insufficient"": 1, ""faithful"": 3, ""unfaithful"": 1}",0.6
+AUDIT-020,evidence_conflict|contradiction|entity_ambiguity,evidence_conflict|contradiction|entity_ambiguity,"{""evidence_conflict"": 5, ""contradiction"": 2, ""entity_ambiguity"": 1}",unfaithful,"{""insufficient"": 2, ""unfaithful"": 3}",0.6
+AUDIT-021,unsupported_claim|entity_ambiguity,unsupported_claim|entity_ambiguity,"{""entity_ambiguity"": 1, ""unsupported_claim"": 2}",tie,"{""insufficient"": 1, ""faithful"": 2, ""unfaithful"": 2}",0.4
+AUDIT-022,contradiction|entity_ambiguity|evidence_conflict,contradiction|entity_ambiguity|evidence_conflict,"{""contradiction"": 4, ""entity_ambiguity"": 3, ""evidence_conflict"": 2}",unfaithful,"{""unfaithful"": 5}",1.0
+AUDIT-023,unsupported_claim|evidence_conflict|contradiction|entity_ambiguity,unsupported_claim|evidence_conflict|contradiction|entity_ambiguity,"{""unsupported_claim"": 4, ""evidence_conflict"": 3, ""contradiction"": 2, ""entity_ambiguity"": 1}",unfaithful,"{""unfaithful"": 5}",1.0
+AUDIT-024,unsupported_claim|insufficient_evidence|evidence_conflict|entity_ambiguity|over_specific_answer,unsupported_claim|insufficient_evidence|evidence_conflict|entity_ambiguity|over_specific_answer,"{""unsupported_claim"": 3, ""insufficient_evidence"": 2, ""entity_ambiguity"": 1, ""evidence_conflict"": 1, ""over_specific_answer"": 1}",unfaithful,"{""unfaithful"": 3, ""insufficient"": 2}",0.6
+AUDIT-025,unsupported_claim|contradiction,unsupported_claim|contradiction,"{""contradiction"": 3, ""unsupported_claim"": 4}",unfaithful,"{""unfaithful"": 5}",1.0
+AUDIT-026,evidence_conflict|contradiction|entity_ambiguity,evidence_conflict|contradiction|entity_ambiguity,"{""evidence_conflict"": 5, ""entity_ambiguity"": 1, ""contradiction"": 2}",insufficient,"{""insufficient"": 3, ""unfaithful"": 2}",0.6
+AUDIT-027,evidence_conflict|contradiction,evidence_conflict|contradiction,"{""evidence_conflict"": 5, ""contradiction"": 1}",unfaithful,"{""insufficient"": 2, ""unfaithful"": 3}",0.6
+AUDIT-028,insufficient_evidence,insufficient_evidence,"{""insufficient_evidence"": 1}",faithful,"{""faithful"": 5}",1.0
+AUDIT-029,,,{},faithful,"{""faithful"": 5}",1.0
+AUDIT-030,entity_ambiguity|unsupported_claim|insufficient_evidence,entity_ambiguity|unsupported_claim|insufficient_evidence,"{""entity_ambiguity"": 5, ""insufficient_evidence"": 1, ""unsupported_claim"": 2}",insufficient,"{""insufficient"": 3, ""unfaithful"": 2}",0.6
+AUDIT-031,unsupported_claim|over_specific_answer,unsupported_claim|over_specific_answer,"{""unsupported_claim"": 4, ""over_specific_answer"": 2}",unfaithful,"{""unfaithful"": 4, ""faithful"": 1}",0.8
+AUDIT-032,contradiction|evidence_conflict|unsupported_claim|entity_ambiguity,contradiction|evidence_conflict|unsupported_claim|entity_ambiguity,"{""unsupported_claim"": 2, ""entity_ambiguity"": 2, ""contradiction"": 3, ""evidence_conflict"": 3}",unfaithful,"{""unfaithful"": 5}",1.0
+AUDIT-033,unsupported_claim|insufficient_evidence,unsupported_claim|insufficient_evidence,"{""insufficient_evidence"": 2, ""unsupported_claim"": 4}",unfaithful,"{""insufficient"": 1, ""unfaithful"": 4}",0.8
+AUDIT-034,unsupported_claim|contradiction,unsupported_claim|contradiction,"{""unsupported_claim"": 5, ""contradiction"": 3}",unfaithful,"{""unfaithful"": 5}",1.0
+AUDIT-035,unsupported_claim|contradiction,unsupported_claim|contradiction,"{""unsupported_claim"": 5, ""contradiction"": 2}",unfaithful,"{""unfaithful"": 5}",1.0
+AUDIT-036,entity_ambiguity|unsupported_claim|contradiction|evidence_conflict|numeric_error,entity_ambiguity|unsupported_claim|contradiction|evidence_conflict|numeric_error,"{""entity_ambiguity"": 2, ""evidence_conflict"": 1, ""unsupported_claim"": 1, ""contradiction"": 1, ""numeric_error"": 1}",tie,"{""insufficient"": 2, ""faithful"": 1, ""unfaithful"": 2}",0.4
+AUDIT-037,unsupported_claim|contradiction|entity_ambiguity,unsupported_claim|contradiction|entity_ambiguity,"{""unsupported_claim"": 4, ""entity_ambiguity"": 3, ""contradiction"": 3}",unfaithful,"{""unfaithful"": 5}",1.0
+AUDIT-038,contradiction|evidence_conflict|insufficient_evidence|entity_ambiguity|temporal_conflict,contradiction|evidence_conflict|insufficient_evidence|entity_ambiguity|temporal_conflict,"{""contradiction"": 1, ""insufficient_evidence"": 1, ""evidence_conflict"": 1, ""temporal_conflict"": 1, ""entity_ambiguity"": 1}",unfaithful,"{""unfaithful"": 3, ""faithful"": 1, ""insufficient"": 1}",0.6
+AUDIT-039,evidence_conflict|contradiction,evidence_conflict|contradiction,"{""evidence_conflict"": 5, ""contradiction"": 2}",unfaithful,"{""insufficient"": 2, ""unfaithful"": 3}",0.6
+AUDIT-040,entity_ambiguity,entity_ambiguity,"{""entity_ambiguity"": 1}",faithful,"{""insufficient"": 1, ""faithful"": 4}",0.8
+AUDIT-041,evidence_conflict|temporal_conflict|contradiction|entity_ambiguity,evidence_conflict|temporal_conflict|contradiction|entity_ambiguity,"{""evidence_conflict"": 4, ""temporal_conflict"": 2, ""contradiction"": 1, ""entity_ambiguity"": 1}",unfaithful,"{""unfaithful"": 4, ""insufficient"": 1}",0.8
+AUDIT-042,contradiction|unsupported_claim|evidence_conflict,contradiction|unsupported_claim|evidence_conflict,"{""contradiction"": 5, ""evidence_conflict"": 1, ""unsupported_claim"": 3}",unfaithful,"{""unfaithful"": 5}",1.0
+AUDIT-043,unsupported_claim|contradiction|evidence_conflict,unsupported_claim|contradiction|evidence_conflict,"{""contradiction"": 3, ""unsupported_claim"": 3, ""evidence_conflict"": 1}",unfaithful,"{""unfaithful"": 4, ""faithful"": 1}",0.8
+AUDIT-044,,,{},faithful,"{""faithful"": 5}",1.0
+AUDIT-045,contradiction|evidence_conflict|entity_ambiguity|insufficient_evidence,contradiction|evidence_conflict|entity_ambiguity|insufficient_evidence,"{""contradiction"": 3, ""evidence_conflict"": 2, ""entity_ambiguity"": 2, ""insufficient_evidence"": 1}",unfaithful,"{""unfaithful"": 4, ""insufficient"": 1}",0.8
+AUDIT-046,unsupported_claim|insufficient_evidence,unsupported_claim|insufficient_evidence,"{""unsupported_claim"": 4, ""insufficient_evidence"": 2}",unfaithful,"{""unfaithful"": 4, ""insufficient"": 1}",0.8
+AUDIT-047,unsupported_claim,unsupported_claim,"{""unsupported_claim"": 5}",unfaithful,"{""unfaithful"": 5}",1.0
+AUDIT-048,unsupported_claim|entity_ambiguity|over_specific_answer,unsupported_claim|entity_ambiguity|over_specific_answer,"{""unsupported_claim"": 5, ""entity_ambiguity"": 4, ""over_specific_answer"": 2}",unfaithful,"{""unfaithful"": 5}",1.0
+AUDIT-049,unsupported_claim|contradiction|evidence_conflict|over_specific_answer,unsupported_claim|contradiction|evidence_conflict|over_specific_answer,"{""unsupported_claim"": 5, ""contradiction"": 3, ""evidence_conflict"": 2, ""over_specific_answer"": 1}",unfaithful,"{""unfaithful"": 5}",1.0
+AUDIT-050,unsupported_claim|over_specific_answer|other,unsupported_claim|over_specific_answer|other,"{""unsupported_claim"": 3, ""over_specific_answer"": 1, ""other"": 1}",unfaithful,"{""unfaithful"": 4, ""faithful"": 1}",0.8
+AUDIT-051,numeric_error|unsupported_claim,numeric_error|unsupported_claim,"{""numeric_error"": 5, ""unsupported_claim"": 4}",unfaithful,"{""unfaithful"": 5}",1.0
+AUDIT-052,unsupported_claim|insufficient_evidence|over_specific_answer,unsupported_claim|insufficient_evidence|over_specific_answer,"{""unsupported_claim"": 4, ""insufficient_evidence"": 2, ""over_specific_answer"": 1}",unfaithful,"{""unfaithful"": 4, ""insufficient"": 1}",0.8
+AUDIT-053,unsupported_claim|over_specific_answer,unsupported_claim|over_specific_answer,"{""unsupported_claim"": 5, ""over_specific_answer"": 1}",unfaithful,"{""unfaithful"": 5}",1.0
+AUDIT-054,unsupported_claim|insufficient_evidence,unsupported_claim|insufficient_evidence,"{""unsupported_claim"": 3, ""insufficient_evidence"": 2}",unfaithful,"{""unfaithful"": 3, ""insufficient"": 2}",0.6
+AUDIT-055,unsupported_claim,unsupported_claim,"{""unsupported_claim"": 5}",unfaithful,"{""unfaithful"": 5}",1.0
+AUDIT-056,unsupported_claim|evidence_conflict|contradiction|over_specific_answer,unsupported_claim|evidence_conflict|contradiction|over_specific_answer,"{""unsupported_claim"": 5, ""evidence_conflict"": 2, ""over_specific_answer"": 1, ""contradiction"": 1}",unfaithful,"{""unfaithful"": 5}",1.0
+AUDIT-057,unsupported_claim|numeric_error,unsupported_claim|numeric_error,"{""unsupported_claim"": 4, ""numeric_error"": 1}",unfaithful,"{""unfaithful"": 4, ""faithful"": 1}",0.8
+AUDIT-058,,,{},faithful,"{""faithful"": 5}",1.0
+AUDIT-059,unsupported_claim|contradiction|evidence_conflict|insufficient_evidence,unsupported_claim|contradiction|evidence_conflict|insufficient_evidence,"{""unsupported_claim"": 4, ""contradiction"": 3, ""evidence_conflict"": 1, ""insufficient_evidence"": 1}",unfaithful,"{""unfaithful"": 4, ""insufficient"": 1}",0.8
+AUDIT-060,unsupported_claim|numeric_error,unsupported_claim|numeric_error,"{""unsupported_claim"": 5, ""numeric_error"": 2}",unfaithful,"{""unfaithful"": 5}",1.0
+AUDIT-061,contradiction|evidence_conflict,contradiction|evidence_conflict,"{""contradiction"": 4, ""evidence_conflict"": 4}",unfaithful,"{""unfaithful"": 4, ""insufficient"": 1}",0.8
+AUDIT-062,contradiction|entity_ambiguity|evidence_conflict|unsupported_claim|numeric_error,contradiction|entity_ambiguity|evidence_conflict|unsupported_claim|numeric_error,"{""contradiction"": 3, ""entity_ambiguity"": 3, ""evidence_conflict"": 2, ""numeric_error"": 1, ""unsupported_claim"": 1}",unfaithful,"{""unfaithful"": 5}",1.0
+AUDIT-063,unsupported_claim|over_specific_answer,unsupported_claim|over_specific_answer,"{""unsupported_claim"": 4, ""over_specific_answer"": 1}",unfaithful,"{""unfaithful"": 4, ""faithful"": 1}",0.8
+AUDIT-064,unsupported_claim|over_specific_answer,unsupported_claim|over_specific_answer,"{""unsupported_claim"": 4, ""over_specific_answer"": 1}",unfaithful,"{""unfaithful"": 4, ""faithful"": 1}",0.8
+AUDIT-065,evidence_conflict|contradiction|entity_ambiguity|temporal_conflict,evidence_conflict|contradiction|entity_ambiguity|temporal_conflict,"{""contradiction"": 3, ""evidence_conflict"": 4, ""temporal_conflict"": 1, ""entity_ambiguity"": 1}",unfaithful,"{""unfaithful"": 5}",1.0
+AUDIT-066,unsupported_claim|over_specific_answer,unsupported_claim|over_specific_answer,"{""unsupported_claim"": 4, ""over_specific_answer"": 1}",unfaithful,"{""unfaithful"": 4, ""faithful"": 1}",0.8
+AUDIT-067,unsupported_claim|contradiction,unsupported_claim|contradiction,"{""unsupported_claim"": 5, ""contradiction"": 1}",unfaithful,"{""unfaithful"": 5}",1.0
+AUDIT-068,unsupported_claim|evidence_conflict|contradiction,unsupported_claim|evidence_conflict|contradiction,"{""unsupported_claim"": 4, ""contradiction"": 2, ""evidence_conflict"": 3}",unfaithful,"{""unfaithful"": 5}",1.0
+AUDIT-069,,,{},faithful,"{""faithful"": 5}",1.0
+AUDIT-070,unsupported_claim|answer_format_issue,unsupported_claim|answer_format_issue,"{""answer_format_issue"": 1, ""unsupported_claim"": 1}",faithful,"{""faithful"": 4, ""unfaithful"": 1}",0.8
+AUDIT-071,,,{},faithful,"{""faithful"": 5}",1.0
+AUDIT-072,unsupported_claim,unsupported_claim,"{""unsupported_claim"": 1}",faithful,"{""faithful"": 4, ""unfaithful"": 1}",0.8
+AUDIT-073,,,{},faithful,"{""faithful"": 5}",1.0
+AUDIT-074,,,{},faithful,"{""faithful"": 5}",1.0
+AUDIT-075,unsupported_claim|numeric_error|contradiction|insufficient_evidence,unsupported_claim|numeric_error|contradiction|insufficient_evidence,"{""insufficient_evidence"": 1, ""numeric_error"": 3, ""unsupported_claim"": 3, ""contradiction"": 1}",unfaithful,"{""insufficient"": 1, ""unfaithful"": 4}",0.8
+AUDIT-076,unsupported_claim|numeric_error,unsupported_claim|numeric_error,"{""unsupported_claim"": 1, ""numeric_error"": 1}",faithful,"{""faithful"": 4, ""unfaithful"": 1}",0.8
+AUDIT-077,contradiction|numeric_error,contradiction|numeric_error,"{""contradiction"": 3, ""numeric_error"": 3}",unfaithful,"{""unfaithful"": 5}",1.0
+AUDIT-078,,,{},faithful,"{""faithful"": 5}",1.0
+AUDIT-079,,,{},faithful,"{""faithful"": 5}",1.0
+AUDIT-080,,,{},faithful,"{""faithful"": 5}",1.0
+AUDIT-081,,,{},faithful,"{""faithful"": 5}",1.0
+AUDIT-082,,,{},faithful,"{""faithful"": 5}",1.0
+AUDIT-083,unsupported_claim|contradiction,unsupported_claim|contradiction,"{""unsupported_claim"": 5, ""contradiction"": 2}",unfaithful,"{""unfaithful"": 5}",1.0
+AUDIT-084,,,{},faithful,"{""faithful"": 5}",1.0
+AUDIT-085,contradiction|unsupported_claim,contradiction|unsupported_claim,"{""contradiction"": 5, ""unsupported_claim"": 1}",unfaithful,"{""unfaithful"": 5}",1.0
+AUDIT-086,,,{},faithful,"{""faithful"": 5}",1.0
+AUDIT-087,unsupported_claim|contradiction,unsupported_claim|contradiction,"{""unsupported_claim"": 5, ""contradiction"": 5}",unfaithful,"{""unfaithful"": 5}",1.0
+AUDIT-088,,,{},faithful,"{""faithful"": 5}",1.0
+AUDIT-089,numeric_error|unsupported_claim,numeric_error|unsupported_claim,"{""unsupported_claim"": 4, ""numeric_error"": 5}",unfaithful,"{""unfaithful"": 5}",1.0
+AUDIT-090,unsupported_claim,unsupported_claim,"{""unsupported_claim"": 5}",unfaithful,"{""unfaithful"": 5}",1.0
+AUDIT-091,unsupported_claim|entity_ambiguity|over_specific_answer,unsupported_claim|entity_ambiguity|over_specific_answer,"{""unsupported_claim"": 4, ""entity_ambiguity"": 4, ""over_specific_answer"": 1}",unfaithful,"{""unfaithful"": 5}",1.0
+AUDIT-092,unsupported_claim|contradiction|over_specific_answer,unsupported_claim|contradiction|over_specific_answer,"{""unsupported_claim"": 5, ""contradiction"": 2, ""over_specific_answer"": 1}",unfaithful,"{""unfaithful"": 5}",1.0
+AUDIT-093,unsupported_claim,unsupported_claim,"{""unsupported_claim"": 5}",unfaithful,"{""unfaithful"": 5}",1.0
+AUDIT-094,unsupported_claim|contradiction|evidence_conflict|entity_ambiguity,unsupported_claim|contradiction|evidence_conflict|entity_ambiguity,"{""unsupported_claim"": 4, ""contradiction"": 3, ""evidence_conflict"": 2, ""entity_ambiguity"": 1}",unfaithful,"{""unfaithful"": 5}",1.0
+AUDIT-095,,,{},faithful,"{""faithful"": 5}",1.0
+AUDIT-096,unsupported_claim|numeric_error|contradiction,unsupported_claim|numeric_error|contradiction,"{""unsupported_claim"": 5, ""numeric_error"": 2, ""contradiction"": 1}",unfaithful,"{""unfaithful"": 5}",1.0
+AUDIT-097,contradiction|evidence_conflict|entity_ambiguity,contradiction|evidence_conflict|entity_ambiguity,"{""contradiction"": 4, ""evidence_conflict"": 4, ""entity_ambiguity"": 1}",unfaithful,"{""unfaithful"": 5}",1.0
+AUDIT-098,unsupported_claim|contradiction|over_specific_answer,unsupported_claim|contradiction|over_specific_answer,"{""unsupported_claim"": 5, ""over_specific_answer"": 1, ""contradiction"": 1}",unfaithful,"{""unfaithful"": 5}",1.0
+AUDIT-099,unsupported_claim|contradiction|temporal_conflict,unsupported_claim|contradiction|temporal_conflict,"{""unsupported_claim"": 5, ""contradiction"": 5, ""temporal_conflict"": 1}",unfaithful,"{""unfaithful"": 5}",1.0
+AUDIT-100,evidence_conflict|contradiction|unsupported_claim|entity_ambiguity|numeric_error,evidence_conflict|contradiction|unsupported_claim|entity_ambiguity|numeric_error,"{""contradiction"": 3, ""evidence_conflict"": 4, ""entity_ambiguity"": 1, ""numeric_error"": 1, ""unsupported_claim"": 1}",unfaithful,"{""unfaithful"": 5}",1.0

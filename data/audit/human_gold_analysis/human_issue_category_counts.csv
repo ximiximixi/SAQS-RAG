@@ -1,0 +1,11 @@
+﻿count,issue_category,rate
+45,unsupported_claim,0.45
+25,entity_ambiguity,0.25
+22,evidence_conflict,0.22
+20,benchmark_ambiguous,0.2
+20,contradiction,0.2
+13,insufficient_evidence,0.13
+6,numeric_error,0.06
+5,over_specific_answer,0.05
+5,answer_format_issue,0.05
+2,temporal_conflict,0.02

@@ -1,0 +1,3 @@
+audit_id,model,label,confidence,issue_categories,notes,definition_applied,parsed_ok,finish_reason,latency_sec,error
+AUDIT-001,qwen3-max-2026-01-23,unfaithful,0.95,entity_ambiguity|over_specific_answer,问题中的“人民大学”存在多个可能指代对象（如阿姆斯特丹人民大学、孟加拉国人民大学等），证据未明确指向某一特定机构，但答案武断地给出1913年作为成立时间。,实体歧义与过度具体回答,True,stop,4.352,
+AUDIT-002,qwen3-max-2026-01-23,unfaithful,0.95,entity_ambiguity|evidence_conflict,证据中同时提到 Fontbonne Academy（学院）、Fontbonne University（大学）和 Fontbonne College（仅指高中），存在实体歧义和冲突；答案武断地确定为“学院”而未处理这种歧义。,关键边界规则：当证据存在实体歧义或冲突时，若答案给出确定结论而未处理，则标记为不忠实。,True,stop,5.088,

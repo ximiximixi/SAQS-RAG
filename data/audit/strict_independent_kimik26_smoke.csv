@@ -1,0 +1,3 @@
+audit_id,model,label,confidence,issue_categories,notes,definition_applied,parsed_ok,finish_reason,latency_sec,error
+AUDIT-001,kimi-k2.6,unfaithful,0.95,entity_ambiguity|over_specific_answer,"问题中的""人民大学""存在实体歧义，证据中至少包含阿姆斯特丹人民大学（1913年成立）、孟加拉国人民大学（1996年成立）和科利马人民大学（1940年成立）三个不同实体。答案直接给出""1913年""，未处理这种歧义，过于具体且忽略了其他可能的实体。","未处理证据中的实体歧义，直接给出确定结论，违反""若答案给出确定结论而不处理歧义/冲突，通常标记为unfaithful""的边界规则。",True,stop,8.806,
+AUDIT-002,kimi-k2.6,unfaithful,0.85,entity_ambiguity|unsupported_claim,"证据中存在严重的实体歧义：Fontbonne Academy（高中）、Fontbonne University（大学）和 Fontbonne College（仅指高中）同时出现，无法确定""Fontbonne""指代哪个机构。答案简单回答""学院""忽略了这种歧义。",未处理证据中的实体歧义，给出确定性结论，违反边界规则：若答案给出确定结论而未处理歧义/冲突，通常应标记为unfaithful。,True,stop,4.188,

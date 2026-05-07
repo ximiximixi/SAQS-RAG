@@ -1,0 +1,386 @@
+{
+  "n_models": 3,
+  "models": [
+    "qwen3.6-max-preview",
+    "deepseek-v4-pro",
+    "kimi-k2.6"
+  ],
+  "n_common_items": 100,
+  "missing_by_model": {
+    "qwen3.6-max-preview": [],
+    "deepseek-v4-pro": [],
+    "kimi-k2.6": []
+  },
+  "label_summary": {
+    "qwen3.6-max-preview": {
+      "n": 100,
+      "parsed_ok": 100,
+      "parsed_ok_rate": 1.0,
+      "errors": 0,
+      "label_counts": {
+        "insufficient": 14,
+        "unfaithful": 65,
+        "faithful": 21
+      },
+      "confidence_mean": 0.97,
+      "confidence_stdev": 0.05025189076296059,
+      "by_label": {
+        "faithful": {
+          "n": 21,
+          "confidence_mean": 1.0,
+          "confidence_stdev": 0.0
+        },
+        "unfaithful": {
+          "n": 65,
+          "confidence_mean": 0.9753846153846154,
+          "confidence_stdev": 0.043412157106222954
+        },
+        "insufficient": {
+          "n": 14,
+          "confidence_mean": 0.9,
+          "confidence_stdev": 0.0554700196225229
+        }
+      },
+      "top_issue_categories": [
+        [
+          "unsupported_claim",
+          46
+        ],
+        [
+          "contradiction",
+          22
+        ],
+        [
+          "entity_ambiguity",
+          14
+        ],
+        [
+          "evidence_conflict",
+          11
+        ],
+        [
+          "insufficient_evidence",
+          4
+        ],
+        [
+          "numeric_error",
+          2
+        ]
+      ]
+    },
+    "deepseek-v4-pro": {
+      "n": 100,
+      "parsed_ok": 100,
+      "parsed_ok_rate": 1.0,
+      "errors": 0,
+      "label_counts": {
+        "unfaithful": 66,
+        "faithful": 29,
+        "insufficient": 5
+      },
+      "confidence_mean": 0.9475,
+      "confidence_stdev": 0.044024212805356476,
+      "by_label": {
+        "faithful": {
+          "n": 29,
+          "confidence_mean": 0.9896551724137931,
+          "confidence_stdev": 0.020612541019744295
+        },
+        "unfaithful": {
+          "n": 66,
+          "confidence_mean": 0.9356060606060606,
+          "confidence_stdev": 0.027407398657397233
+        },
+        "insufficient": {
+          "n": 5,
+          "confidence_mean": 0.86,
+          "confidence_stdev": 0.08944271909999162
+        }
+      },
+      "top_issue_categories": [
+        [
+          "unsupported_claim",
+          37
+        ],
+        [
+          "evidence_conflict",
+          24
+        ],
+        [
+          "contradiction",
+          15
+        ],
+        [
+          "entity_ambiguity",
+          12
+        ],
+        [
+          "numeric_error",
+          8
+        ],
+        [
+          "insufficient_evidence",
+          5
+        ],
+        [
+          "over_specific_answer",
+          4
+        ],
+        [
+          "temporal_conflict",
+          1
+        ]
+      ]
+    },
+    "kimi-k2.6": {
+      "n": 100,
+      "parsed_ok": 100,
+      "parsed_ok_rate": 1.0,
+      "errors": 0,
+      "label_counts": {
+        "unfaithful": 77,
+        "faithful": 21,
+        "insufficient": 2
+      },
+      "confidence_mean": 0.915,
+      "confidence_stdev": 0.05050252518939078,
+      "by_label": {
+        "faithful": {
+          "n": 21,
+          "confidence_mean": 0.9833333333333333,
+          "confidence_stdev": 0.024152294576982418
+        },
+        "unfaithful": {
+          "n": 77,
+          "confidence_mean": 0.8974025974025973,
+          "confidence_stdev": 0.03881137236356989
+        },
+        "insufficient": {
+          "n": 2,
+          "confidence_mean": 0.875,
+          "confidence_stdev": 0.03535533905932741
+        }
+      },
+      "top_issue_categories": [
+        [
+          "unsupported_claim",
+          58
+        ],
+        [
+          "contradiction",
+          29
+        ],
+        [
+          "evidence_conflict",
+          23
+        ],
+        [
+          "numeric_error",
+          11
+        ],
+        [
+          "over_specific_answer",
+          10
+        ],
+        [
+          "entity_ambiguity",
+          9
+        ],
+        [
+          "insufficient_evidence",
+          5
+        ],
+        [
+          "answer_format_issue",
+          1
+        ],
+        [
+          "temporal_conflict",
+          1
+        ]
+      ]
+    }
+  },
+  "pairwise": {
+    "qwen3.6-max-preview__vs__deepseek-v4-pro": {
+      "left": "qwen3.6-max-preview",
+      "right": "deepseek-v4-pro",
+      "n": 100,
+      "exact_agreement": 80,
+      "exact_agreement_rate": 0.8,
+      "exact_cohen_kappa": 0.6024647187437886,
+      "binary_agreement": 90,
+      "binary_agreement_rate": 0.9,
+      "binary_cohen_kappa": 0.7355896351136966,
+      "issue_jaccard_mean": 0.5966666666666667,
+      "reason_token_jaccard_mean": 0.29311773553967385
+    },
+    "qwen3.6-max-preview__vs__kimi-k2.6": {
+      "left": "qwen3.6-max-preview",
+      "right": "kimi-k2.6",
+      "n": 100,
+      "exact_agreement": 80,
+      "exact_agreement_rate": 0.8,
+      "exact_cohen_kappa": 0.5581087052585065,
+      "binary_agreement": 92,
+      "binary_agreement_rate": 0.92,
+      "binary_cohen_kappa": 0.7588908981314045,
+      "issue_jaccard_mean": 0.6091666666666666,
+      "reason_token_jaccard_mean": 0.28965308322725175
+    },
+    "deepseek-v4-pro__vs__kimi-k2.6": {
+      "left": "deepseek-v4-pro",
+      "right": "kimi-k2.6",
+      "n": 100,
+      "exact_agreement": 85,
+      "exact_agreement_rate": 0.85,
+      "exact_cohen_kappa": 0.6510816468946267,
+      "binary_agreement": 92,
+      "binary_agreement_rate": 0.92,
+      "binary_cohen_kappa": 0.7884717080909573,
+      "issue_jaccard_mean": 0.5925,
+      "reason_token_jaccard_mean": 0.33491222359927453
+    }
+  },
+  "triple": {
+    "unique_label_count_distribution": {
+      "2": 26,
+      "1": 73,
+      "3": 1
+    },
+    "unanimous_exact": 73,
+    "unanimous_exact_rate": 0.73,
+    "two_vs_one": 26,
+    "two_vs_one_rate": 0.26,
+    "all_three_different": 1,
+    "all_three_different_rate": 0.01,
+    "majority_label_counts": {
+      "unfaithful": 73,
+      "faithful": 24,
+      "insufficient": 2,
+      "all_different": 1
+    },
+    "majority_binary_counts": {
+      "nonfaithful": 76,
+      "faithful": 24
+    }
+  },
+  "benchmark_gold_comparison_note": "Approximate only: benchmark gold is faithful/unfaithful, while audit labels allow insufficient as a separate non-faithful decision.",
+  "majority_binary_vs_benchmark_gold_accuracy": 0.62,
+  "by_dataset": {
+    "ragbench": {
+      "n": 46,
+      "unanimous_exact_rate": 0.8043478260869565,
+      "all_three_different_rate": 0.0,
+      "mean_issue_jaccard": 0.643719806763285,
+      "mean_reason_token_jaccard": 0.33292817553272586,
+      "majority_binary_vs_benchmark_gold_accuracy": 0.717391304347826,
+      "majority_label_counts": {
+        "unfaithful": 30,
+        "faithful": 16
+      }
+    },
+    "ragtruth": {
+      "n": 16,
+      "unanimous_exact_rate": 0.875,
+      "all_three_different_rate": 0.0,
+      "mean_issue_jaccard": 0.7465277777777778,
+      "mean_reason_token_jaccard": 0.30359183057804534,
+      "majority_binary_vs_benchmark_gold_accuracy": 0.5,
+      "majority_label_counts": {
+        "unfaithful": 13,
+        "faithful": 3
+      }
+    },
+    "ramdocs": {
+      "n": 38,
+      "unanimous_exact_rate": 0.5789473684210527,
+      "all_three_different_rate": 0.02631578947368421,
+      "mean_issue_jaccard": 0.48391812865497075,
+      "mean_reason_token_jaccard": 0.27413866794173397,
+      "majority_binary_vs_benchmark_gold_accuracy": 0.5526315789473685,
+      "majority_label_counts": {
+        "unfaithful": 30,
+        "faithful": 5,
+        "insufficient": 2,
+        "all_different": 1
+      }
+    }
+  },
+  "by_primary_stratum": {
+    "coverage_fill": {
+      "n": 12,
+      "unanimous_exact_rate": 1.0,
+      "all_three_different_rate": 0.0,
+      "mean_issue_jaccard": 0.7592592592592592,
+      "mean_reason_token_jaccard": 0.3112430535162147,
+      "majority_binary_vs_benchmark_gold_accuracy": 0.6666666666666666,
+      "majority_label_counts": {
+        "unfaithful": 11,
+        "faithful": 1
+      }
+    },
+    "low_risk_control": {
+      "n": 20,
+      "unanimous_exact_rate": 0.8,
+      "all_three_different_rate": 0.0,
+      "mean_issue_jaccard": 0.7916666666666667,
+      "mean_reason_token_jaccard": 0.3529661471785187,
+      "majority_binary_vs_benchmark_gold_accuracy": 0.95,
+      "majority_label_counts": {
+        "faithful": 15,
+        "unfaithful": 5
+      }
+    },
+    "model_majority_disagreement": {
+      "n": 13,
+      "unanimous_exact_rate": 0.6153846153846154,
+      "all_three_different_rate": 0.0,
+      "mean_issue_jaccard": 0.5042735042735043,
+      "mean_reason_token_jaccard": 0.3053476207546992,
+      "majority_binary_vs_benchmark_gold_accuracy": 0.46153846153846156,
+      "majority_label_counts": {
+        "unfaithful": 12,
+        "faithful": 1
+      }
+    },
+    "ramdocs_instability": {
+      "n": 8,
+      "unanimous_exact_rate": 0.5,
+      "all_three_different_rate": 0.125,
+      "mean_issue_jaccard": 0.38888888888888884,
+      "mean_reason_token_jaccard": 0.2640634126732361,
+      "majority_binary_vs_benchmark_gold_accuracy": 0.625,
+      "majority_label_counts": {
+        "all_different": 1,
+        "unfaithful": 6,
+        "faithful": 1
+      }
+    },
+    "stable_shared_error": {
+      "n": 22,
+      "unanimous_exact_rate": 0.45454545454545453,
+      "all_three_different_rate": 0.0,
+      "mean_issue_jaccard": 0.4343434343434343,
+      "mean_reason_token_jaccard": 0.2972177767336754,
+      "majority_binary_vs_benchmark_gold_accuracy": 0.09090909090909091,
+      "majority_label_counts": {
+        "unfaithful": 16,
+        "faithful": 4,
+        "insufficient": 2
+      }
+    },
+    "top_multi_risk": {
+      "n": 25,
+      "unanimous_exact_rate": 0.92,
+      "all_three_different_rate": 0.0,
+      "mean_issue_jaccard": 0.6311111111111111,
+      "mean_reason_token_jaccard": 0.28697510801748877,
+      "majority_binary_vs_benchmark_gold_accuracy": 0.88,
+      "majority_label_counts": {
+        "faithful": 2,
+        "unfaithful": 23
+      }
+    }
+  }
+}

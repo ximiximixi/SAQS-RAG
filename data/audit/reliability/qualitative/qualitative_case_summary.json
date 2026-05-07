@@ -1,0 +1,20 @@
+{
+  "n_cases": 11,
+  "case_groups": {
+    "Entity/title ambiguity": 2,
+    "Entity/person ambiguity": 1,
+    "Insufficient or weakly linked evidence": 1,
+    "Evidence conflict": 1,
+    "Temporal/evidence conflict": 1,
+    "Unsupported specificity": 1,
+    "Insufficient evidence in table context": 1,
+    "Numeric error": 1,
+    "False alarm / abstention failure": 1,
+    "False alarm / policy boundary": 1
+  },
+  "human_label_counts": {
+    "unfaithful": 9,
+    "faithful": 2
+  },
+  "artifact_note": "Case studies are for qualitative analysis and paper writing; they are not additional evaluation metrics."
+}

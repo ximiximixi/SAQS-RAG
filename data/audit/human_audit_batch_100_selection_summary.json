@@ -1,0 +1,32 @@
+{
+  "n": 100,
+  "by_primary_stratum": {
+    "model_majority_disagreement": 13,
+    "stable_shared_error": 22,
+    "ramdocs_instability": 8,
+    "top_multi_risk": 25,
+    "low_risk_control": 20,
+    "coverage_fill": 12
+  },
+  "by_dataset": {
+    "ramdocs": 38,
+    "ragbench": 46,
+    "ragtruth": 16
+  },
+  "by_gold_label": {
+    "faithful": 56,
+    "unfaithful": 44
+  },
+  "by_dataset_gold": {
+    "ramdocs|faithful": 22,
+    "ragbench|unfaithful": 23,
+    "ramdocs|unfaithful": 16,
+    "ragbench|faithful": 23,
+    "ragtruth|faithful": 11,
+    "ragtruth|unfaithful": 5
+  },
+  "model_majority_disagreement": 13,
+  "both_wrong": 27,
+  "any_model_wrong": 40,
+  "combined_wrong": 35
+}

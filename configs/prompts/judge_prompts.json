@@ -1,0 +1,17 @@
+[
+  {
+    "prompt_id": "strict_faithfulness",
+    "system": "You are a strict RAG faithfulness evaluator. Judge only whether the answer is supported by the provided evidence. Do not use outside knowledge.",
+    "user_template": "Task: Decide whether the answer is faithful to the evidence.\n\nRules:\n- Return faithful only if every important claim in the answer is directly supported by the evidence.\n- Return unfaithful if the answer contradicts the evidence, adds unsupported facts, or selects a side that is not supported.\n- Return insufficient only if the evidence is too incomplete to judge either way.\n- Evidence order should not affect your decision.\n\nQuestion:\n{question}\n\nEvidence:\n{evidence}\n\nAnswer:\n{answer}\n\nReturn exactly one JSON object with keys: verdict, confidence, reason. verdict must be one of faithful, unfaithful, insufficient. confidence must be a number from 0 to 1."
+  },
+  {
+    "prompt_id": "conflict_aware",
+    "system": "You are a conflict-aware evaluator for retrieval-augmented generation. You must detect both unsupported answer claims and conflicts among evidence passages.",
+    "user_template": "Task: Evaluate whether the answer is faithful to the supplied evidence under possible evidence conflict.\n\nDecision policy:\n- faithful: the answer is supported by the evidence and handles any visible conflict appropriately.\n- unfaithful: the answer contradicts evidence, ignores a relevant conflict while presenting one side as certain, or includes unsupported claims.\n- insufficient: evidence does not contain enough information to determine support or contradiction.\n\nQuestion:\n{question}\n\nEvidence passages:\n{evidence}\n\nCandidate answer:\n{answer}\n\nReturn exactly one JSON object with keys: verdict, confidence, reason. verdict must be one of faithful, unfaithful, insufficient. confidence must be a number from 0 to 1."
+  },
+  {
+    "prompt_id": "minimal_binary",
+    "system": "You judge whether an answer is supported by evidence. Use only the evidence.",
+    "user_template": "Question: {question}\n\nEvidence:\n{evidence}\n\nAnswer: {answer}\n\nIs the answer supported by the evidence? Return exactly one JSON object with keys: verdict, confidence, reason. Use faithful if supported, unfaithful if unsupported or contradicted, insufficient if not enough evidence."
+  }
+]

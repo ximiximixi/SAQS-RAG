@@ -1,0 +1,4 @@
+left,right,n,agreement,agreement_rate,cohen_kappa
+deepseek-v4-pro,qwen3.5-plus-2026-04-20,100,98,0.98,0.9322493224932249
+deepseek-v4-pro,qwen3.6-max-preview,100,99,0.99,0.96684350132626
+qwen3.5-plus-2026-04-20,qwen3.6-max-preview,100,99,0.99,0.96684350132626

@@ -1,0 +1,54 @@
+.env
+paper/
+submission/
+awesome-ai-research-writing-main/
+paper/author_private.tex
+paper/main_extracted.txt
+paper/preview_image2/
+
+# LaTeX build artifacts
+paper/*.aux
+paper/*.bbl
+paper/*.blg
+paper/*.fdb_latexmk
+paper/*.fls
+paper/*.log
+paper/*.out
+paper/*.xdv
+paper/*.synctex.gz
+
+# Raw datasets and bulky re-creatable run outputs stay local.
+data/raw/
+data/pilot/
+
+# Submission artifact directory/zip duplicates tracked source files.
+submission/artifact_anonymous/
+submission/*.zip
+
+# Paper-writing and submission-planning records stay local.
+docs/cikm2026_submission_strategy_and_paper_outline.md
+docs/freezes/2026-05-06_31_cikm_format_visualization_and_paper_assets.md
+docs/freezes/2026-05-06_32_image2_figure_generation_and_quality_audit.md
+docs/freezes/2026-05-06_33_author_block_related_work_and_bibtex.md
+docs/freezes/2026-05-06_34_cikm_submission_checklist_audit.md
+docs/freezes/2026-05-07_35_image2_figure_switch.md
+docs/freezes/2026-05-07_36_chinese_reading_tex_copy.md
+docs/freezes/2026-05-07_37_private_git_push.md
+docs/freezes/2026-05-07_38_replace_main_and_bilingual_readme.md
+
+# Manuscript-specific helper scripts are kept local with the manuscript.
+scripts/generate_paper_assets.py
+scripts/generate_paper_figures_mpl.py
+
+data/pilot/judge_outputs*.jsonl
+data/pilot/analysis*/
+data/pilot/run_*.log
+data/audit/annotation_ui.*.log
+data/audit/*.log
+data/audit/human_audit_annotations.jsonl
+data/audit/human_audit_annotations.csv
+
+# Keep the local writing-skill docs, but skip unrelated large demo images.
+awesome-ai-research-writing-main/images/
+__pycache__/
+*.pyc
